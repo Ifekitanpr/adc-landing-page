@@ -1,4 +1,5 @@
 import {useEffect,useRef,useState} from 'react';
+import {flushSync} from 'react-dom';
 import {motion,useReducedMotion} from 'motion/react';
 import HeroBackgroundVideo from './HeroBackgroundVideo';
 import {unlockBrandAudio} from './motion/brandAudio';
@@ -35,10 +36,13 @@ export default function EntryExperience({onEntered}:{onEntered:()=>void}){
   const targets=desktop?['[data-node-id="8404:27052"]','[data-node-id="8404:27053"]','.desktop-sticky-header','[data-node-id="8404:27054"]']:['.m-hero h1','.m-hero>p','.m-header','.m-hero>.m-actions'];
   targets.forEach((selector,index)=>{const node=document.querySelector<HTMLElement>(selector);if(!node)return;node.getAnimations().forEach(animation=>{try{animation.finish()}catch{}});const opacity=getComputedStyle(node).opacity;run(node,[{opacity:0,translate:reduced?'none':'0 14px'},{opacity,translate:'0 0'}],{duration:reduced?180:850,delay:reduced?0:350+index*60,easing:'cubic-bezier(.22,1,.36,1)'})});
   void Promise.all(animations.map(animation=>animation.finished.catch(()=>{}))).then(()=>{
-   restore.forEach(reset=>reset());animations.forEach(animation=>animation.cancel());
    const course=document.querySelector<HTMLElement>(desktop?'[data-node-id="8404:27058"]':'.m-free-course');
    if(course){course.style.opacity='0';course.style.animationPlayState='paused'}
-   onEntered();
+   // Remove the overlay before cancelling fill-mode animations: cancelling first
+   // restores its opaque backdrop and can expose a one-frame flash.
+   restore.forEach(reset=>reset());
+   flushSync(()=>onEntered());
+   animations.forEach(animation=>animation.cancel());
    if(course){const reveal=course.animate([{opacity:0,transform:reduced?'none':'translateY(12px)'},{opacity:1,transform:'none'}],{duration:reduced?180:650,easing:'cubic-bezier(.22,1,.36,1)',fill:'both'});void reveal.finished.catch(()=>{}).then(()=>{course.style.opacity='1';course.style.removeProperty('animation-play-state');reveal.cancel()})}
    requestAnimationFrame(()=>document.querySelector<HTMLElement>(desktop?'.desktop-sticky-header a':'.m-header a')?.focus({preventScroll:true}));
   });
