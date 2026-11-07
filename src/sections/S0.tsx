@@ -48,7 +48,7 @@ export default function HeroAdcMidnightAmbient() {
                 <img alt="" className="udc4d53a u5f1cffc u1a5895b ub8dda64 u08f3d9d u73a213f u36113fd" src={imgImageProfessionalLearningWorkshop} />
               </div>
             </div>
-            <div className="udc4d53a u4efc18c u2de42fb u2bb4530 u419aa8f ufc3627b u897a779 uf66bad4 u43f6a22 u769dc70 ube3fc0b uef6007d ub296a06 u73a213f u95d1755 u83b2269" data-node-id="8404:27058" data-name="Featured course / Innovation Foundations">
+            <div className="udc4d53a u4efc18c u2de42fb u2bb4530 u419aa8f ufc3627b u897a779 uf66bad4 u43f6a22 u769dc70 ube3fc0b uef6007d ub296a06 u73a213f u95d1755 u83b2269" data-node-id="8404:27058" data-motion-native data-name="Featured course / Innovation Foundations">
               <div className="u9bf4565 u897a779 uf66bad4 ua342888 u4b730cd ub0e090e uff9932c u99c483e u0ff40b7 u81841dd u3eb3769 u65ba8f0" data-node-id="8404:27059">
                 <p className="u559f244">FREE MINI-COURSE</p>
               </div>

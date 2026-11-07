@@ -475,3 +475,5 @@
  .entry-pixel-intro .entry-workshop{top:calc(var(--entry-art-top,500px) + var(--entry-pixel-cap));bottom:auto;height:var(--entry-photo-height)}
  .entry-pixel-intro .entry-pixel-frame{top:var(--entry-art-top,500px);bottom:auto;height:calc(var(--entry-photo-height) + var(--entry-pixel-cap))}
 }
+
+.intro-open [data-node-id="8404:27058"],.intro-open .m-free-course{visibility:hidden;animation:none!important}

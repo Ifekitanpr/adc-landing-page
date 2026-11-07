@@ -6,7 +6,7 @@ const workshop='/assets/figma/8404-26515-imgImageProfessionalLearningWorkshop.we
 export default function EntryExperience({onEntered}:{onEntered:()=>void}){
  const reduced=useReducedMotion(),button=useRef<HTMLButtonElement>(null),photo=useRef<HTMLImageElement>(null);
  const[leaving,setLeaving]=useState(false);
- useEffect(()=>{const overflow=document.body.style.overflow;document.body.style.overflow='hidden';button.current?.focus({preventScroll:true});return()=>{document.body.style.overflow=overflow}},[]);
+ useEffect(()=>{const overflow=document.body.style.overflow;document.body.style.overflow='hidden';document.documentElement.classList.add('intro-open');button.current?.focus({preventScroll:true});return()=>{document.body.style.overflow=overflow;document.documentElement.classList.remove('intro-open')}},[]);
  useEffect(()=>{const overlay=button.current?.closest<HTMLElement>('.entry-experience');const copy=overlay?.querySelector<HTMLElement>('.entry-copy');if(!overlay||!copy)return;const measure=()=>overlay.style.setProperty('--entry-art-top',`${copy.offsetTop+copy.offsetHeight+28}px`);const observer=new ResizeObserver(measure);observer.observe(copy);window.addEventListener('resize',measure);measure();return()=>{observer.disconnect();window.removeEventListener('resize',measure)}},[]);
  const enter=()=>{
   if(leaving)return;setLeaving(true);unlockBrandAudio();window.scrollTo({top:0,behavior:'instant'});
@@ -32,11 +32,15 @@ export default function EntryExperience({onEntered}:{onEntered:()=>void}){
    const oldOpacity=targetPhoto.style.opacity;targetPhoto.style.opacity='0';restore.push(()=>{targetPhoto.style.opacity=oldOpacity});
    run(node,[{left:`${from.left}px`,top:`${from.top}px`,width:`${from.width}px`,height:`${from.height}px`,borderRadius:'0px'},{left:`${to.left}px`,top:`${to.top}px`,width:`${to.width}px`,height:`${to.height}px`,borderRadius:getComputedStyle(targetPhoto).borderRadius}],{duration,easing});
   }else if(photo.current)run(photo.current,[{opacity:1},{opacity:0}],{duration});
-  const targets=desktop?['[data-node-id="8404:27052"]','[data-node-id="8404:27053"]','.desktop-sticky-header','[data-node-id="8404:27054"]','[data-node-id="8404:27058"]']:['.m-hero h1','.m-hero>p','.m-header','.m-hero>.m-actions','.m-free-course'];
+  const targets=desktop?['[data-node-id="8404:27052"]','[data-node-id="8404:27053"]','.desktop-sticky-header','[data-node-id="8404:27054"]']:['.m-hero h1','.m-hero>p','.m-header','.m-hero>.m-actions'];
   targets.forEach((selector,index)=>{const node=document.querySelector<HTMLElement>(selector);if(!node)return;node.getAnimations().forEach(animation=>{try{animation.finish()}catch{}});const opacity=getComputedStyle(node).opacity;run(node,[{opacity:0,translate:reduced?'none':'0 14px'},{opacity,translate:'0 0'}],{duration:reduced?180:850,delay:reduced?0:350+index*60,easing:'cubic-bezier(.22,1,.36,1)'})});
   void Promise.all(animations.map(animation=>animation.finished.catch(()=>{}))).then(()=>{
    restore.forEach(reset=>reset());animations.forEach(animation=>animation.cancel());
-   onEntered();requestAnimationFrame(()=>document.querySelector<HTMLElement>(desktop?'.desktop-sticky-header a':'.m-header a')?.focus({preventScroll:true}));
+   const course=document.querySelector<HTMLElement>(desktop?'[data-node-id="8404:27058"]':'.m-free-course');
+   if(course){course.style.opacity='0';course.style.animationPlayState='paused'}
+   onEntered();
+   if(course){const reveal=course.animate([{opacity:0,transform:reduced?'none':'translateY(12px)'},{opacity:1,transform:'none'}],{duration:reduced?180:650,easing:'cubic-bezier(.22,1,.36,1)',fill:'both'});void reveal.finished.catch(()=>{}).then(()=>{course.style.opacity='1';course.style.removeProperty('animation-play-state');reveal.cancel()})}
+   requestAnimationFrame(()=>document.querySelector<HTMLElement>(desktop?'.desktop-sticky-header a':'.m-header a')?.focus({preventScroll:true}));
   });
  };
 
