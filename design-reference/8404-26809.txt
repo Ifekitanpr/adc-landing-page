@@ -1,0 +1,143 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/3b70021c-5f9f-4c7e-9c8d-8a2c360858e3";
+const imgTipsPlus = `${assetPathPrefix}/393eb.svg`;
+const imgDimension = `${assetPathPrefix}/6f2b2.svg`;
+const imgElements = `${assetPathPrefix}/0a985.svg`;
+const imgElements1 = `${assetPathPrefix}/a3c8d.svg`;
+const imgElements2 = `${assetPathPrefix}/fbe18.svg`;
+
+export default function Frame1686553282() {
+  return (
+    <div className="bg-[#fff3e6] content-stretch flex flex-col items-start justify-center px-[84px] py-[100px] relative size-full" data-node-id="8404:26809">
+      <div className="bg-[#fff9f3] content-stretch flex gap-[60px] items-center px-[60px] py-[100px] relative shrink-0 w-full" data-node-id="8404:26810">
+        <div className="content-stretch flex flex-col gap-[40px] items-start justify-center relative shrink-0" data-node-id="8404:26811">
+          <div className="content-stretch flex flex-col gap-[16px] items-start justify-center relative shrink-0 w-[545px]" data-node-id="8404:26812">
+            <div className="bg-[#fff3e6] content-stretch flex items-start justify-center p-[10px] relative rounded-[20px] shrink-0 w-[367px]" data-node-id="8404:26813">
+              <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#4b4a4c] text-[16px] text-center whitespace-nowrap" data-node-id="8404:26814">
+                <p className="leading-[26px]">{`TRANSFORMATION CATALYST PROGRAMME `}</p>
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[10px] items-start justify-center leading-[0] not-italic relative shrink-0 w-full" data-node-id="8404:26815">
+              <div className="flex flex-col font-['Eina04-Bold:☞'] justify-center relative shrink-0 text-[#171718] text-[46px] w-full whitespace-pre-wrap" data-node-id="8404:26816">
+                <p className="leading-[normal] mb-0">{`Build in-house `}</p>
+                <p className="leading-[normal]">transformation capacity.</p>
+              </div>
+              <div className="flex flex-col font-['Poppins:Regular'] justify-center relative shrink-0 text-[#4b4a4c] text-[16px] w-full" data-node-id="8404:26817">
+                <p className="leading-[26px]">A 6–9 month, practitioner-led programme that turns your cross-functional team into an internal transformation bench.</p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[14px] items-center relative shrink-0" data-node-id="8404:26818">
+            <div className="bg-[#074cde] content-stretch flex gap-[8px] h-[60px] items-center justify-center overflow-clip px-[20px] py-[7px] relative rounded-[2px] shrink-0 w-[179px]" data-node-id="8404:26819" data-name="Button">
+              <div className="relative shrink-0 size-[14px]" data-node-id="I8404:26819;11:1469" data-name="tips/plus">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTipsPlus} />
+              </div>
+              <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text\/white,white)] text-right whitespace-nowrap" data-node-id="I8404:26819;11:1470">
+                <p className="leading-[normal]">Apply Now</p>
+              </div>
+            </div>
+            <div className="bg-[#e9e9e9] content-stretch flex gap-[8px] h-[60px] items-center justify-center overflow-clip px-[20px] py-[7px] relative rounded-[2px] shrink-0 w-[198px]" data-node-id="8404:26820" data-name="Button">
+              <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#4b4a4c] text-[14px] whitespace-nowrap" data-node-id="I8404:26820;11:1560">
+                <p className="leading-[normal]">Schedule a Briefing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[20px] h-[434px] items-start min-w-px relative" data-node-id="8404:26821">
+          <div className="absolute h-[468.528px] left-[-314px] opacity-30 top-[-254.6px] w-[366px]" data-node-id="8404:26822" data-name="Animation">
+            <div className="absolute inset-[22.52%_0_0_0.82%]" data-node-id="I8404:26822;31:13787" data-name="Dimension">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimension} />
+            </div>
+          </div>
+          <div className="bg-[#fff3e6] flex-[1_0_0] min-h-px overflow-clip relative rounded-[10px] w-full" data-node-id="8404:26823">
+            <div className="-translate-y-1/2 absolute bg-[#fff9f3] h-[69.664px] left-[44.2px] rounded-[10px] top-1/2 w-[91.038px]" data-node-id="8404:26824" />
+            <div className="absolute left-[77.72px] overflow-clip size-[24px] top-[53.67px]" data-node-id="8404:26825" data-name="search">
+              <div className="absolute flex inset-[8.33%] items-center justify-center" data-node-id="I8404:26825;8:4847" style={{ containerType: "size" }}>
+                <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+                  <div className="relative size-full" data-name="elements">
+                    <div className="absolute inset-[-3.75%]">
+                      <img alt="" className="block max-w-none size-full" src={imgElements} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="-translate-y-1/2 [word-break:break-word] absolute content-stretch flex flex-col gap-[4px] items-start leading-[0] left-[170px] not-italic top-1/2 w-[322px]" data-node-id="8404:26826">
+              <div className="flex flex-col font-['Eina04-SemiBold:☞'] justify-center relative shrink-0 text-[#171718] text-[20px] w-full" data-node-id="8404:26827">
+                <p className="leading-[normal]">{`Diagnose & Define`}</p>
+              </div>
+              <div className="flex flex-col font-['Eina04-Regular:☞'] justify-center relative shrink-0 text-[#4b4a4c] text-[16px] w-full" data-node-id="8404:26828">
+                <p className="leading-[normal]">Understand challenges, identify gaps and establish priorities.</p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#fff3e6] flex-[1_0_0] min-h-px overflow-clip relative rounded-[10px] w-full" data-node-id="8404:26829">
+            <div className="-translate-y-1/2 absolute bg-[#fff9f3] h-[69.664px] left-[44.2px] rounded-[10px] top-1/2 w-[91.038px]" data-node-id="8404:26830" />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute content-stretch flex flex-col gap-[4px] items-start leading-[0] left-[170px] not-italic top-1/2 w-[322px]" data-node-id="8404:26831">
+              <div className="flex flex-col font-['Eina04-SemiBold:☞'] justify-center relative shrink-0 text-[#171718] text-[20px] w-full" data-node-id="8404:26832">
+                <p className="leading-[normal]">{`Develop & Embed`}</p>
+              </div>
+              <div className="flex flex-col font-['Eina04-Regular:☞'] justify-center relative shrink-0 text-[#4b4a4c] text-[16px] w-full" data-node-id="8404:26833">
+                <p className="leading-[normal]">Build capabilities and apply them to real transformation missions.</p>
+              </div>
+            </div>
+            <div className="absolute left-[77.72px] overflow-clip size-[24px] top-[53.33px]" data-node-id="8404:26834" data-name="flow-connection">
+              <div className="absolute inset-[8.33%]" data-node-id="I8404:26834;8:7902" data-name="elements">
+                <div className="absolute inset-[-3.75%]">
+                  <img alt="" className="block max-w-none size-full" src={imgElements1} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#fff3e6] flex-[1_0_0] min-h-px overflow-clip relative rounded-[10px] w-full" data-node-id="8404:26835">
+            <div className="-translate-y-1/2 absolute bg-[#fff9f3] h-[69.664px] left-[44.2px] rounded-[10px] top-1/2 w-[91.038px]" data-node-id="8404:26836" />
+            <div className="-translate-y-1/2 [word-break:break-word] absolute content-stretch flex flex-col gap-[4px] items-start leading-[0] left-[170px] not-italic top-1/2 w-[322px]" data-node-id="8404:26837">
+              <div className="flex flex-col font-['Eina04-SemiBold:☞'] justify-center relative shrink-0 text-[#171718] text-[20px] w-full" data-node-id="8404:26838">
+                <p className="leading-[normal]">{`Measure & Scale`}</p>
+              </div>
+              <div className="flex flex-col font-['Eina04-Regular:☞'] justify-center relative shrink-0 text-[#4b4a4c] text-[16px] w-full" data-node-id="8404:26839">
+                <p className="leading-[normal]">Track measurable impact and make transformation repeatable.</p>
+              </div>
+            </div>
+            <div className="absolute left-[77.72px] overflow-clip size-[24px] top-[54px]" data-node-id="8404:26840" data-name="chart-line-data-02">
+              <div className="absolute inset-[12.5%_16.67%_12.5%_8.33%]" data-node-id="I8404:26840;8:23996" data-name="elements">
+                <div className="absolute inset-[-4.17%]">
+                  <img alt="" className="block max-w-none size-full" src={imgElements2} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: ADC COLORS/Grey/G200: #4B4A4C, Body/Normal/Regular: Font(family: "Poppins", style: Regular, size: 16, weight: 400, lineHeight: 26, letterSpacing: 0), ADC COLORS/Secondary/S50: #FFF3E6, ADC COLORS/Grey/G500: #171718, Heading/H2/Bold: Font(family: "Eina04-Bold", style: ☞, size: 46, weight: 400, lineHeight: 100, letterSpacing: 0), Body/Small/Regular: Font(family: "Poppins", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0), ADC COLORS/Primary/P300: #074CDE, ADC COLORS/Grey/G50: #E9E9E9, Heading/H5/Semibold: Font(family: "Eina04-SemiBold", style: ☞, size: 20, weight: 400, lineHeight: 100, letterSpacing: 0), Heading/H6/Regular: Font(family: "Eina04-Regular", style: ☞, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Type=Primary, Category=Standard, Shape=Rectangle, Size=Big, State=Defaut
+**Node ID:** 11:1468
+
+**Documentation:**
+- [https://arco.design/react/components/button](https://arco.design/react/components/button)
+
+## Button
+**Node ID:** 11:1437
+
+Button
+
+**Documentation:**
+- [https://arco.design/react/components/button](https://arco.design/react/components/button)
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

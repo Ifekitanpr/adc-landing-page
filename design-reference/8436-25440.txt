@@ -1,0 +1,268 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/6758bd43-7693-4f0d-ad51-03dcba37a7cb";
+const imgStrategyPreview = `${assetPathPrefix}/f100c.png`;
+const imgGoToStrategy = `${assetPathPrefix}/1968a.svg`;
+const imgGoToPeople = `${assetPathPrefix}/367ac.svg`;
+const imgGoToWork = `${assetPathPrefix}/ed93f.svg`;
+const imgFlowConnections = `${assetPathPrefix}/4e529.svg`;
+const imgFlowConnections1 = `${assetPathPrefix}/86546.svg`;
+const imgFlowConnections2 = `${assetPathPrefix}/33656.svg`;
+
+type AdcPadiworksThumbnailCarouselProps = {
+  className?: string;
+  slide?: "Strategy";
+};
+
+function AdcPadiworksThumbnailCarousel({ className, slide = "Strategy" }: AdcPadiworksThumbnailCarouselProps) {
+  return (
+    <div className={className || "h-[250px] relative w-[389.333px]"} data-node-id="8463:25458">
+      <div className="absolute h-[200px] left-[48.67px] top-[14px] w-[292px]" data-node-id="8463:25459" data-name="Strategy preview">
+        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgStrategyPreview} />
+      </div>
+      <div className="absolute left-[176.67px] size-[7px] top-[230px]" data-node-id="8463:25460" data-name="Go to Strategy">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGoToStrategy} />
+      </div>
+      <button className="absolute block cursor-pointer left-[191.67px] size-[7px] top-[230px]" data-node-id="8463:25461" data-name="Go to People">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGoToPeople} />
+      </button>
+      <button className="absolute block cursor-pointer left-[206.67px] size-[7px] top-[230px]" data-node-id="8463:25462" data-name="Go to Work">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGoToWork} />
+      </button>
+    </div>
+  );
+}
+
+type AdcConsultingSoftwareProps = {
+  className?: string;
+  step?: "4";
+  tab?: "Consulting";
+};
+
+function AdcConsultingSoftware({ className, step = "4", tab = "Consulting" }: AdcConsultingSoftwareProps) {
+  return (
+    <div className={className || "bg-white content-stretch flex flex-col gap-[36px] items-center pb-[88px] pt-[96px] px-[100px] relative w-[1440px]"} data-node-id="8436:25326">
+      <div className="[word-break:break-word] content-stretch flex flex-col gap-[18px] items-center not-italic overflow-clip relative shrink-0 text-center w-[1240px]" data-node-id="8436:25327" data-name="Section heading">
+        <p className="font-['Poppins:SemiBold'] leading-[18px] relative shrink-0 text-[#074cde] text-[12px] tracking-[2px] w-[1000px]" data-node-id="8436:25328">{`CONSULTING & SOFTWARE`}</p>
+        <div className="font-['Eina04-Bold:☞'] leading-[0] relative shrink-0 text-[#002b79] text-[56px] w-[1000px]" data-node-id="8436:25329">
+          <p className="leading-[64px] mb-0">Stop renting capability.</p>
+          <p className="leading-[64px]">Start owning it.</p>
+        </div>
+        <p className="font-['Poppins:Regular'] leading-[26px] relative shrink-0 text-[#002b79] text-[17px] w-[1000px]" data-node-id="8436:25330">
+          We deliver alongside your teams, then leave the capability with them.
+        </p>
+      </div>
+      <div className="bg-[#e6edfc] content-stretch flex gap-[8px] items-start overflow-clip p-[6px] relative rounded-[12px] shrink-0 w-[428px]" data-node-id="8436:25331" data-name="Consulting / Platforms tabs">
+        <div className="bg-[#074cde] content-stretch flex items-start overflow-clip px-[16px] py-[12px] relative rounded-[8px] shrink-0 w-[204px]" data-node-id="8436:25332" data-name="ADC Consulting">
+          <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[21px] not-italic relative shrink-0 text-[14px] text-center text-white w-[172px]" data-node-id="8436:25333">
+            ADC Consulting
+          </p>
+        </div>
+        <button className="bg-[#e6edfc] content-stretch cursor-pointer flex items-start overflow-clip px-[16px] py-[12px] relative rounded-[8px] shrink-0 w-[204px]" data-node-id="8436:25334" data-name="ADC Platforms">
+          <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[21px] not-italic relative shrink-0 text-[#002b79] text-[14px] text-center w-[172px]" data-node-id="8436:25335">
+            ADC Platforms
+          </p>
+        </button>
+      </div>
+      <div className="content-stretch flex gap-[48px] items-center overflow-clip p-[52px] relative rounded-[24px] shrink-0 w-[1240px]" data-node-id="8436:25336" style={{ backgroundImage: "linear-gradient(132.82049732990595deg, rgb(255, 243, 230) 10.156%, rgb(255, 224, 189) 49.219%, rgb(255, 197, 143) 88.281%), url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 1240 484' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(49.733 2.5882 -12.894 17.255 626.26 240.53)'><stop stop-color='rgba(255,137,1,0.22)' offset='0'/><stop stop-color='rgba(255,137,1,0.06)' offset='0.65'/><stop stop-color='rgba(255,137,1,0)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="Featured capability panel">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[20px] items-start not-italic overflow-clip relative shrink-0 w-[440px]" data-node-id="8436:25337" data-name="Panel introduction">
+          <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[440px]" data-node-id="8436:25338">
+            EXPERTISE THAT STAYS WITH YOU
+          </p>
+          <div className="font-['Eina04-Bold:☞'] leading-[0] relative shrink-0 text-[#002b79] text-[40px] w-[440px]" data-node-id="8436:25339">
+            <p className="leading-[46px] mb-0">Solve today.</p>
+            <p className="leading-[46px]">Build for tomorrow.</p>
+          </div>
+          <p className="font-['Poppins:Regular'] leading-[24px] relative shrink-0 text-[#002b79] text-[16px] w-[420px]" data-node-id="8436:25340">
+            From product delivery to AI adoption, build lasting capability while solving your most important challenges.
+          </p>
+        </div>
+        <div className="h-[380px] relative rounded-[16px] shrink-0 w-[648px]" data-node-id="8436:25341" data-name="ADC capability workflow">
+          <div className="absolute h-[380px] left-0 top-0 w-[648px]" data-node-id="8440:25393" data-name="Reveal stage 1">
+            <div className="[word-break:break-word] absolute bg-[rgba(255,255,255,0.45)] content-stretch flex font-['Poppins:Regular'] h-[42px] items-start leading-[0] left-0 not-italic overflow-clip rounded-[8px] text-[#074cde] text-[11px] text-center top-0 w-[648px]" data-node-id="8440:25397" data-name="Four-stage progress">
+              <div className="flex flex-col h-full justify-center relative shrink-0 w-[162px]" data-node-id="8440:25398">
+                <p className="leading-[16.5px] whitespace-pre-wrap">{`01   DISCOVER`}</p>
+              </div>
+              <div className="flex flex-col h-full justify-center relative shrink-0 w-[162px]" data-node-id="8440:25399">
+                <p className="leading-[16.5px] whitespace-pre-wrap">{`02   DESIGN`}</p>
+              </div>
+              <div className="flex flex-col h-full justify-center relative shrink-0 w-[162px]" data-node-id="8440:25400">
+                <p className="leading-[16.5px] whitespace-pre-wrap">{`03   DELIVER`}</p>
+              </div>
+              <div className="flex flex-col h-full justify-center relative shrink-0 w-[162px]" data-node-id="8440:25401">
+                <p className="leading-[16.5px] whitespace-pre-wrap">{`04   TRANSFER`}</p>
+              </div>
+            </div>
+            <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[224px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[68px] w-[200px]" data-node-id="8440:25402" data-name="Business challenge">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[184px]" data-node-id="8440:25403">
+                Business challenge
+              </p>
+            </div>
+          </div>
+          <div className="absolute h-[380px] left-0 top-0 w-[648px]" data-node-id="8440:25394" data-name="Reveal stage 2">
+            <div className="absolute h-[360px] left-0 top-0 w-[648px]" data-node-id="8440:25404" data-name="Flow connections">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFlowConnections} />
+            </div>
+            <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[50px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[158px] w-[216px]" data-node-id="8440:25406" data-name="Discover & diagnose">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[200px]" data-node-id="8440:25407">{`Discover & diagnose`}</p>
+            </div>
+            <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[382px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[158px] w-[216px]" data-node-id="8440:25408" data-name="Define the roadmap">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[200px]" data-node-id="8440:25409">
+                Define the roadmap
+              </p>
+            </div>
+          </div>
+          <div className="absolute h-[380px] left-0 top-0 w-[648px]" data-node-id="8440:25395" data-name="Reveal stage 3">
+            <div className="absolute h-[360px] left-0 top-0 w-[648px]" data-node-id="8440:25410" data-name="Flow connections">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFlowConnections1} />
+            </div>
+            <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[10px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[246px] w-[200px]" data-node-id="8440:25412" data-name="Products & projects">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[184px]" data-node-id="8440:25413">{`Products & projects`}</p>
+            </div>
+            <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[234px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[246px] w-[200px]" data-node-id="8440:25414" data-name="AI & innovation">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[184px]" data-node-id="8440:25415">{`AI & innovation`}</p>
+            </div>
+            <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[458px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[246px] w-[200px]" data-node-id="8440:25416" data-name="Digital academies">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[184px]" data-node-id="8440:25417">
+                Digital academies
+              </p>
+            </div>
+          </div>
+          <div className="absolute h-[380px] left-0 top-0 w-[648px]" data-node-id="8440:25396" data-name="Reveal stage 4">
+            <div className="absolute h-[360px] left-0 top-0 w-[648px]" data-node-id="8440:25418" data-name="Flow connections">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFlowConnections2} />
+            </div>
+            <div className="absolute bg-[#ff8901] content-stretch flex flex-col h-[42px] items-center justify-center left-[184px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[334px] w-[280px]" data-node-id="8440:25420" data-name="Capability your team owns">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[264px]" data-node-id="8440:25421">
+                Capability your team owns
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="[word-break:break-word] content-stretch flex flex-col gap-[28px] items-start not-italic overflow-clip relative shrink-0 w-[1240px]" data-node-id="8436:25356" data-name="Services and platforms">
+        <div className="content-stretch flex gap-[36px] items-start overflow-clip relative shrink-0 w-[1239.999px]" data-node-id="8436:25357" data-name="Capability row 0">
+          <div className="border-[#bfc9db] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-[389.333px]" data-node-id="8436:25358" data-name="Product Delivery">
+            <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25359">
+              01
+            </p>
+            <p className="font-['Eina04-Bold:☞'] leading-[25px] relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25360">
+              Product Delivery
+            </p>
+            <p className="font-['Poppins:Regular'] leading-[21px] relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25361">
+              Discover, build, launch and scale AI-enabled products people actually use.
+            </p>
+          </div>
+          <div className="border-[#bfc9db] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-[389.333px]" data-node-id="8436:25362" data-name="Project Delivery">
+            <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25363">
+              02
+            </p>
+            <p className="font-['Eina04-Bold:☞'] leading-[25px] relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25364">
+              Project Delivery
+            </p>
+            <p className="font-['Poppins:Regular'] leading-[21px] relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25365">
+              PMO and EPMO set-up, project management as a service and portfolio recovery.
+            </p>
+          </div>
+          <div className="border-[#bfc9db] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-[389.333px]" data-node-id="8436:25366" data-name="Innovation Consulting">
+            <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25367">
+              03
+            </p>
+            <p className="font-['Eina04-Bold:☞'] leading-[25px] relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25368">
+              Innovation Consulting
+            </p>
+            <p className="font-['Poppins:Regular'] leading-[21px] relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25369">
+              The SHIFT™ framework for new business models and growth.
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[36px] items-start overflow-clip relative shrink-0 w-[1239.999px]" data-node-id="8436:25370" data-name="Capability row 1">
+          <div className="border-[#bfc9db] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-[389.333px]" data-node-id="8436:25371" data-name="Agile-Digital Transformation">
+            <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25372">
+              04
+            </p>
+            <p className="font-['Eina04-Bold:☞'] leading-[25px] relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25373">
+              Agile-Digital Transformation
+            </p>
+            <p className="font-['Poppins:Regular'] leading-[21px] relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25374">
+              From projects to products. From plans to working results.
+            </p>
+          </div>
+          <div className="border-[#bfc9db] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-[389.333px]" data-node-id="8436:25375" data-name="AI & Generative AI">
+            <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25376">
+              05
+            </p>
+            <p className="font-['Eina04-Bold:☞'] leading-[25px] relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25377">{`AI & Generative AI`}</p>
+            <p className="font-['Poppins:Regular'] leading-[21px] relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25378">
+              From pilots to production: governed, measured and valuable.
+            </p>
+          </div>
+          <div className="border-[#bfc9db] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-[389.333px]" data-node-id="8436:25379" data-name="E-learning as a Service">
+            <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25380">
+              06
+            </p>
+            <p className="font-['Eina04-Bold:☞'] leading-[25px] relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25381">
+              E-learning as a Service
+            </p>
+            <p className="font-['Poppins:Regular'] leading-[21px] relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25382">
+              Your own branded academy, from content to platform.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-[1240px]" data-node-id="8436:25383" data-name="Capability diagnostic CTA">
+        <div className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[0] not-italic relative shrink-0 text-[#002b79] text-[22px] w-[650px]" data-node-id="8436:25384">
+          <p className="leading-[25px] mb-0">End every engagement owning</p>
+          <p className="leading-[25px]">capability you used to rent.</p>
+        </div>
+        <div className="bg-[#074cde] content-stretch flex gap-[8px] h-[56px] items-center justify-center overflow-clip px-[40px] py-[17px] relative rounded-[6px] shrink-0 w-[380px]" data-node-id="8436:25385" data-name="Button">
+          <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text\/white,white)] text-center whitespace-nowrap" data-node-id="I8436:25385;11:1470">
+            <p className="leading-[22px]">Book a free capability diagnostic</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function AdcConsultingSoftware1() {
+  return <AdcConsultingSoftware className="bg-white content-stretch flex flex-col gap-[36px] items-center pb-[88px] pt-[96px] px-[100px] relative size-full" />;
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: ADC COLORS/Primary/P300: #074CDE, ADC COLORS/Primary/P500: #002B79, ADC COLORS/Primary/ADC White: #FFFFFF, ADC COLORS/Primary/P50: #E6EDFC, ADC COLORS/Secondary/S300: #FF8901.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Tab=Consulting, Step=4
+**Node ID:** 8436:25326
+
+ADC consulting and software. Content from both source tabs, styled around the 101gen use-case composition.
+
+## ADC / Consulting & Software
+**Node ID:** 8436:25437
+
+ADC consulting and software. White section background; four-stage branching flow reveal in each tab. 0.7s initial delay, 0.8s between steps, 0.45s Smart Animate; holds completed flow.
+
+## Type=Primary, Category=Standard, Shape=Rectangle, Size=Big, State=Defaut
+**Node ID:** 11:1468
+
+**Documentation:**
+- [https://arco.design/react/components/button](https://arco.design/react/components/button)
+
+## Button
+**Node ID:** 11:1437
+
+Button
+
+**Documentation:**
+- [https://arco.design/react/components/button](https://arco.design/react/components/button)
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

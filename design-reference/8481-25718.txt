@@ -1,0 +1,257 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/30b87d41-a342-4cbc-be6e-ae18d11eddbc";
+const imgEditorialPhoto = `${assetPathPrefix}/861de.png`;
+const imgEditorialPhoto1 = `${assetPathPrefix}/97853.png`;
+const imgEditorialPhoto2 = `${assetPathPrefix}/8a3ce.png`;
+const imgGroup = `${assetPathPrefix}/b4e42.svg`;
+const imgGroup1 = `${assetPathPrefix}/8c53d.svg`;
+const imgGroup2 = `${assetPathPrefix}/855c7.svg`;
+const imgEllipse = `${assetPathPrefix}/ebfb7.svg`;
+const imgEllipse1 = `${assetPathPrefix}/daa51.svg`;
+const imgEllipse2 = `${assetPathPrefix}/364ab.svg`;
+const imgEllipse3 = `${assetPathPrefix}/27899.svg`;
+const imgEllipse4 = `${assetPathPrefix}/a261f.svg`;
+const imgEllipse5 = `${assetPathPrefix}/9e53e.svg`;
+const imgIconArrowLeft = `${assetPathPrefix}/faab1.svg`;
+const imgIconArrowRight = `${assetPathPrefix}/4ab3e.svg`;
+
+export default function IdeasThatMoveYouBrandedEditorialCarousel() {
+  return (
+    <div className="bg-white content-stretch flex flex-col gap-[48px] items-start p-[100px] relative size-full" data-node-id="8481:25718" data-name="Ideas that move you / branded editorial carousel">
+      <div className="content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-[1240px]" data-node-id="8481:25719" data-name="Editorial section heading">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[18px] items-start not-italic overflow-clip relative shrink-0 text-[#002b79] w-[880px]" data-node-id="8481:25720" data-name="Title and supporting copy">
+          <p className="font-['Eina04-Bold:☞'] leading-[57px] relative shrink-0 text-[48px] w-[850px]" data-node-id="8481:25721">
+            Ideas that move you.
+          </p>
+          <p className="font-['Poppins:Regular'] leading-[26px] relative shrink-0 text-[17px] w-[790px]" data-node-id="8481:25722">
+            Make sense of what’s changing—and turn it into your next move. Explore practical perspectives and tools from ADC.
+          </p>
+        </div>
+        <div className="bg-[#074cde] content-stretch flex gap-[8px] h-[56px] items-center justify-center overflow-clip px-[40px] py-[17px] relative rounded-[6px] shrink-0 w-[250px]" data-node-id="8485:25796" data-name="Discover more insights / primary button">
+          <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text\/white,white)] text-center whitespace-nowrap" data-node-id="I8485:25796;11:1470">
+            <p className="leading-[22px]">Discover more insights</p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[36px] h-[500px] items-start overflow-x-auto overflow-y-clip relative shrink-0 w-[1240px]" data-node-id="8481:25724" data-name="Horizontal insights carousel">
+        <div className="content-stretch flex flex-col gap-[20px] h-[500px] items-start relative shrink-0 w-[389.333px]" data-node-id="8486:25786" data-name="Insight 1">
+          <div className="bg-[#074cde] h-[270px] overflow-clip relative rounded-[12px] shrink-0 w-[389.333px]" data-node-id="8486:25787" data-name="Branded article cover">
+            <div className="absolute h-[214px] left-[22px] rounded-bl-[70px] rounded-br-[10px] rounded-tl-[10px] rounded-tr-[70px] top-[20px] w-[345px]" data-node-id="8486:25798" data-name="Editorial photo">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-bl-[70px] rounded-br-[10px] rounded-tl-[10px] rounded-tr-[70px] size-full" src={imgEditorialPhoto} />
+            </div>
+            <div className="absolute bg-[#ff8901] h-[16px] left-0 top-[254px] w-[389.333px]" data-node-id="8486:25799" data-name="ADC orange accent" />
+            <div className="absolute inset-[62.96%_1.11%_-14.73%_71.92%]" data-node-id="8486:25788" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex font-['Poppins:Regular'] gap-[20px] items-start not-italic overflow-clip relative shrink-0 w-[389.333px]" data-node-id="8486:25793" data-name="Category and format">
+            <p className="leading-[20px] relative shrink-0 text-[#074cde] text-[13px] w-[265px]" data-node-id="8486:25794">
+              AI Transformation
+            </p>
+            <p className="leading-[18px] opacity-60 relative shrink-0 text-[#002b79] text-[12px] text-right w-[104px]" data-node-id="8486:25795">
+              Nov 07, 2026
+            </p>
+          </div>
+          <p className="[word-break:break-word] font-['Eina04-Bold:☞'] h-[90px] leading-[30px] not-italic relative shrink-0 text-[#002b79] text-[25px] w-[389.333px]" data-node-id="8486:25796">
+            Your company doesn’t need another AI tool.
+          </p>
+          <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[21px] not-italic opacity-65 relative shrink-0 text-[#002b79] text-[14px] w-[389.333px]" data-node-id="8486:25797">
+            by ADC Insights
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col gap-[20px] h-[500px] items-start relative shrink-0 w-[389.333px]" data-node-id="8486:25800" data-name="Insight 2">
+          <div className="bg-[#fff3e6] h-[270px] overflow-clip relative rounded-[12px] shrink-0 w-[389.333px]" data-node-id="8486:25801" data-name="Branded article cover">
+            <div className="absolute h-[238px] left-[113px] rounded-bl-[100px] rounded-tl-[100px] top-[16px] w-[276px]" data-node-id="8486:25812" data-name="Editorial photo">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-bl-[100px] rounded-tl-[100px] size-full" src={imgEditorialPhoto1} />
+            </div>
+            <div className="absolute inset-[46.3%_73.8%_11.3%_4.11%]" data-node-id="8486:25813" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+            </div>
+            <div className="absolute inset-[62.96%_1.11%_-14.73%_71.92%]" data-node-id="8486:25802" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex font-['Poppins:Regular'] gap-[20px] items-start not-italic overflow-clip relative shrink-0 w-[389.333px]" data-node-id="8486:25807" data-name="Category and format">
+            <p className="leading-[20px] relative shrink-0 text-[#074cde] text-[13px] w-[265px]" data-node-id="8486:25808">
+              Execution
+            </p>
+            <p className="leading-[18px] opacity-60 relative shrink-0 text-[#002b79] text-[12px] text-right w-[104px]" data-node-id="8486:25809">
+              Nov 05, 2026
+            </p>
+          </div>
+          <p className="[word-break:break-word] font-['Eina04-Bold:☞'] h-[90px] leading-[30px] not-italic relative shrink-0 text-[#002b79] text-[25px] w-[389.333px]" data-node-id="8486:25810">
+            82% of tasks done. Only 41% of the goal moved. What happened?
+          </p>
+          <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[21px] not-italic opacity-65 relative shrink-0 text-[#002b79] text-[14px] w-[389.333px]" data-node-id="8486:25811">
+            by ADC Insights
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col gap-[20px] h-[500px] items-start relative shrink-0 w-[389.333px]" data-node-id="8486:25818" data-name="Insight 3">
+          <div className="bg-[#002b79] h-[270px] overflow-clip relative rounded-[12px] shrink-0 w-[389.333px]" data-node-id="8486:25819" data-name="Branded article cover">
+            <div className="absolute h-[224px] left-0 top-0 w-[389.333px]" data-node-id="8486:25830" data-name="Editorial photo">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEditorialPhoto2} />
+            </div>
+            <div className="absolute bg-[#074cde] h-[46px] left-0 top-[224px] w-[389.333px]" data-node-id="8486:25831" data-name="ADC blue footer band" />
+            <div className="absolute inset-[62.96%_1.11%_-14.73%_71.92%]" data-node-id="8486:25820" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex font-['Poppins:Regular'] gap-[20px] items-start not-italic overflow-clip relative shrink-0 w-[389.333px]" data-node-id="8486:25825" data-name="Category and format">
+            <p className="leading-[20px] relative shrink-0 text-[#074cde] text-[13px] w-[265px]" data-node-id="8486:25826">
+              Careers
+            </p>
+            <p className="leading-[18px] opacity-60 relative shrink-0 text-[#002b79] text-[12px] text-right w-[104px]" data-node-id="8486:25827">
+              Nov 02, 2026
+            </p>
+          </div>
+          <p className="[word-break:break-word] font-['Eina04-Bold:☞'] h-[90px] leading-[30px] not-italic relative shrink-0 text-[#002b79] text-[25px] w-[389.333px]" data-node-id="8486:25828">
+            AI won’t take your job. Someone using it well might.
+          </p>
+          <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[21px] not-italic opacity-65 relative shrink-0 text-[#002b79] text-[14px] w-[389.333px]" data-node-id="8486:25829">
+            by ADC Insights
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col gap-[20px] h-[500px] items-start relative shrink-0 w-[389.333px]" data-node-id="8486:25832" data-name="Insight 4">
+          <div className="bg-[#074cde] h-[270px] overflow-clip relative rounded-[12px] shrink-0 w-[389.333px]" data-node-id="8486:25833" data-name="Branded article cover">
+            <div className="absolute h-[214px] left-[22px] rounded-bl-[70px] rounded-br-[10px] rounded-tl-[10px] rounded-tr-[70px] top-[20px] w-[345px]" data-node-id="8486:25844" data-name="Editorial photo">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-bl-[70px] rounded-br-[10px] rounded-tl-[10px] rounded-tr-[70px] size-full" src={imgEditorialPhoto} />
+            </div>
+            <div className="absolute bg-[#ff8901] h-[16px] left-0 top-[254px] w-[389.333px]" data-node-id="8486:25845" data-name="ADC orange accent" />
+            <div className="absolute inset-[62.96%_1.11%_-14.73%_71.92%]" data-node-id="8486:25834" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex font-['Poppins:Regular'] gap-[20px] items-start not-italic overflow-clip relative shrink-0 w-[389.333px]" data-node-id="8486:25839" data-name="Category and format">
+            <p className="leading-[20px] relative shrink-0 text-[#074cde] text-[13px] w-[265px]" data-node-id="8486:25840">
+              AI Transformation
+            </p>
+            <p className="leading-[18px] opacity-60 relative shrink-0 text-[#002b79] text-[12px] text-right w-[104px]" data-node-id="8486:25841">
+              Oct 30, 2026
+            </p>
+          </div>
+          <p className="[word-break:break-word] font-['Eina04-Bold:☞'] h-[90px] leading-[30px] not-italic relative shrink-0 text-[#002b79] text-[25px] w-[389.333px]" data-node-id="8486:25842">
+            Find the AI use cases worth pursuing.
+          </p>
+          <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[21px] not-italic opacity-65 relative shrink-0 text-[#002b79] text-[14px] w-[389.333px]" data-node-id="8486:25843">
+            ADC Toolkit · AI Use-Case Canvas
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col gap-[20px] h-[500px] items-start relative shrink-0 w-[389.333px]" data-node-id="8486:25846" data-name="Insight 5">
+          <div className="bg-[#fff3e6] h-[270px] overflow-clip relative rounded-[12px] shrink-0 w-[389.333px]" data-node-id="8486:25847" data-name="Branded article cover">
+            <div className="absolute h-[238px] left-[113px] rounded-bl-[100px] rounded-tl-[100px] top-[16px] w-[276px]" data-node-id="8486:25858" data-name="Editorial photo">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-bl-[100px] rounded-tl-[100px] size-full" src={imgEditorialPhoto1} />
+            </div>
+            <div className="absolute inset-[46.3%_73.8%_11.3%_4.11%]" data-node-id="8486:25859" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+            </div>
+            <div className="absolute inset-[62.96%_1.11%_-14.73%_71.92%]" data-node-id="8486:25848" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex font-['Poppins:Regular'] gap-[20px] items-start not-italic overflow-clip relative shrink-0 w-[389.333px]" data-node-id="8486:25853" data-name="Category and format">
+            <p className="leading-[20px] relative shrink-0 text-[#074cde] text-[13px] w-[265px]" data-node-id="8486:25854">
+              Execution
+            </p>
+            <p className="leading-[18px] opacity-60 relative shrink-0 text-[#002b79] text-[12px] text-right w-[104px]" data-node-id="8486:25855">
+              Oct 27, 2026
+            </p>
+          </div>
+          <p className="[word-break:break-word] font-['Eina04-Bold:☞'] h-[90px] leading-[30px] not-italic relative shrink-0 text-[#002b79] text-[25px] w-[389.333px]" data-node-id="8486:25856">
+            Turn ambition into measurable OKRs.
+          </p>
+          <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[21px] not-italic opacity-65 relative shrink-0 text-[#002b79] text-[14px] w-[389.333px]" data-node-id="8486:25857">
+            ADC Toolkit · OKR Starter Kit
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col gap-[20px] h-[500px] items-start relative shrink-0 w-[389.333px]" data-node-id="8486:25864" data-name="Insight 6">
+          <div className="bg-[#002b79] h-[270px] overflow-clip relative rounded-[12px] shrink-0 w-[389.333px]" data-node-id="8486:25865" data-name="Branded article cover">
+            <div className="absolute h-[224px] left-0 top-0 w-[389.333px]" data-node-id="8486:25876" data-name="Editorial photo">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEditorialPhoto2} />
+            </div>
+            <div className="absolute bg-[#074cde] h-[46px] left-0 top-[224px] w-[389.333px]" data-node-id="8486:25877" data-name="ADC blue footer band" />
+            <div className="absolute inset-[62.96%_1.11%_-14.73%_71.92%]" data-node-id="8486:25866" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex font-['Poppins:Regular'] gap-[20px] items-start not-italic overflow-clip relative shrink-0 w-[389.333px]" data-node-id="8486:25871" data-name="Category and format">
+            <p className="leading-[20px] relative shrink-0 text-[#074cde] text-[13px] w-[265px]" data-node-id="8486:25872">
+              Agile-Digital
+            </p>
+            <p className="leading-[18px] opacity-60 relative shrink-0 text-[#002b79] text-[12px] text-right w-[104px]" data-node-id="8486:25873">
+              Oct 23, 2026
+            </p>
+          </div>
+          <p className="[word-break:break-word] font-['Eina04-Bold:☞'] h-[90px] leading-[30px] not-italic relative shrink-0 text-[#002b79] text-[25px] w-[389.333px]" data-node-id="8486:25874">
+            Plan your next 90 days of transformation.
+          </p>
+          <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[21px] not-italic opacity-65 relative shrink-0 text-[#002b79] text-[14px] w-[389.333px]" data-node-id="8486:25875">
+            ADC Toolkit · Transformation Action Blueprint
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch cursor-pointer flex items-center justify-between overflow-clip relative shrink-0 w-[1240px]" data-node-id="8481:25788" data-name="Carousel pagination and arrows">
+        <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-[120px]" data-node-id="8481:25789" data-name="Pagination">
+          <button className="block relative shrink-0 size-[8px]" data-node-id="8481:25790" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
+          </button>
+          <button className="block relative shrink-0 size-[8px]" data-node-id="8481:25792" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+          </button>
+          <button className="block relative shrink-0 size-[8px]" data-node-id="8481:25794" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+          </button>
+          <button className="block relative shrink-0 size-[8px]" data-node-id="8481:25796" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse3} />
+          </button>
+          <button className="block relative shrink-0 size-[8px]" data-node-id="8481:25798" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse4} />
+          </button>
+          <button className="block relative shrink-0 size-[8px]" data-node-id="8481:25800" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse5} />
+          </button>
+        </div>
+        <div className="content-stretch flex gap-[12px] items-start overflow-clip relative shrink-0 w-[124px]" data-node-id="8481:25802" data-name="Navigation arrows">
+          <button className="bg-[#e6edfc] content-stretch flex items-center justify-center overflow-clip relative rounded-[28px] shrink-0 size-[56px]" data-node-id="8481:25803" data-name="Previous insights">
+            <div className="relative shrink-0 size-[24px]" data-node-id="8488:25720" data-name="Icon / Arrow left">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowLeft} />
+            </div>
+          </button>
+          <button className="bg-[#e6edfc] content-stretch flex items-center justify-center overflow-clip relative rounded-[28px] shrink-0 size-[56px]" data-node-id="8481:25806" data-name="Next insights">
+            <div className="relative shrink-0 size-[24px]" data-node-id="8488:25722" data-name="Icon / Arrow right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowRight} />
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: ADC COLORS/Primary/P500: #002B79, ADC COLORS/Primary/P300: #074CDE, ADC COLORS/Secondary/S300: #FF8901, ADC COLORS/Secondary/S50: #FFF3E6, ADC COLORS/Primary/P50: #E6EDFC, ADC COLORS/Primary/ADC White: #FFFFFF.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Type=Primary, Category=Standard, Shape=Rectangle, Size=Big, State=Defaut
+**Node ID:** 11:1468
+
+**Documentation:**
+- [https://arco.design/react/components/button](https://arco.design/react/components/button)
+
+## Button
+**Node ID:** 11:1437
+
+Button
+
+**Documentation:**
+- [https://arco.design/react/components/button](https://arco.design/react/components/button)
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

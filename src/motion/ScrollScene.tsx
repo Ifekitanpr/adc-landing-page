@@ -1,0 +1,14 @@
+import {createContext,useContext,useLayoutEffect,useRef,type ReactNode} from 'react';
+import {useMotionValue,useSpring,useReducedMotion,type MotionValue} from 'motion/react';
+const SceneContext=createContext<MotionValue<number>|null>(null);
+export function useSceneProgress(){return useContext(SceneContext)}
+/** Native sticky scrolling: no wheel interception, and the same timeline reverses on ascent. */
+export default function ScrollScene({children,name,distance=1500}:{children:ReactNode;name:string;distance?:number}){
+ const root=useRef<HTMLDivElement>(null);const stage=useRef<HTMLDivElement>(null);
+ const raw=useMotionValue(0);const progress=useSpring(raw,name==='dial'?{stiffness:90,damping:24,mass:.8}:{stiffness:180,damping:32,mass:.35});const reduced=useReducedMotion();
+ useLayoutEffect(()=>{const node=root.current!,surface=stage.current!;const media=matchMedia('(min-width:1200px) and (prefers-reduced-motion:no-preference)');let frame=0,completed=false,released=false;
+ const update=()=>{frame=0;if(name==='experience'&&completed){const before=surface.getBoundingClientRect().top;node.dataset.scrollEnabled='false';node.style.removeProperty('height');raw.jump(1);if(!released){released=true;const shift=surface.getBoundingClientRect().top-before;window.scrollBy({top:shift,behavior:'instant'})}return}const enabled=media.matches;node.dataset.scrollEnabled=String(enabled);if(!enabled){node.style.removeProperty('height');raw.jump(1);return}const zoom=node.getBoundingClientRect().width/node.clientWidth||1;const header=document.querySelector('.desktop-nav-surface')?.getBoundingClientRect().height||100;node.style.setProperty('--scene-top',`${header/zoom}px`);node.style.setProperty('--scene-viewport',`${(innerHeight-header)/zoom}px`);node.style.setProperty('--scene-distance',`${distance/zoom}px`);node.style.height=`${surface.offsetHeight+distance/zoom}px`;const bounds=node.getBoundingClientRect();const travel=bounds.height-surface.getBoundingClientRect().height;raw.set(Math.max(0,Math.min(1,(header-bounds.top)/Math.max(1,travel))));};
+ const schedule=()=>{if(!frame)frame=requestAnimationFrame(update)};window.addEventListener('scroll',schedule,{passive:true});window.addEventListener('resize',schedule);media.addEventListener('change',schedule);const ro=new ResizeObserver(schedule);ro.observe(surface);const stop=progress.on('change',value=>{if(name==='experience'&&!completed&&media.matches&&value>=.995){completed=true;schedule()}});update();return()=>{stop();cancelAnimationFrame(frame);ro.disconnect();window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);media.removeEventListener('change',schedule)};
+ },[distance,raw,reduced,name,progress]);
+ return <SceneContext.Provider value={progress}><div ref={root} className={`scroll-scene scene-${name}`} data-motion-native><div ref={stage} className="scroll-scene-stage">{children}</div></div></SceneContext.Provider>
+}

@@ -1,0 +1,45 @@
+/* Shared site content system. Surfaces span the viewport; content stops growing. */
+:root{--content-max-width:1272px;--design-frame-width:1440px}
+.content-container{width:100%;max-width:var(--content-max-width);margin-inline:auto}
+@media(min-width:1024px){
+  .desktop-sticky-header [data-name="Header"]{max-width:var(--design-frame-width);margin-inline:auto}
+  .desktop-page .section-2>div,
+  .desktop-page .section-3>div,
+  .desktop-page .section-4>div,
+  .desktop-page .section-5>div,
+  .desktop-page .section-8>div,
+  .desktop-page .section-9>div,
+  .desktop-page .section-10>div,
+  .desktop-page .section-13>div,
+  .desktop-page .section-15>div{padding-inline:var(--page-gutter)}
+  .desktop-page .section-2>div>div,
+  .desktop-page .section-3>div>div,
+  .desktop-page .section-9>div>div,
+  .desktop-page .section-15>div>div{max-width:var(--content-max-width);width:100%;margin-inline:auto}
+  .desktop-page .section-0 [data-name="Metrics / Simple proof strip"]{max-width:var(--content-max-width);margin-inline:auto}
+  .desktop-page .section-0 [data-name="Metric / 15+"],
+  .desktop-page .section-0 [data-name="Metric / 50,000+"],
+  .desktop-page .section-0 [data-name="Metric / 1,000+"],
+  .desktop-page .section-0 [data-name="Metric / 98%"]{flex:1;min-width:0}
+  .desktop-page .section-1 [data-name="Copy / People and systems"],
+  .desktop-page .section-12 [data-name="Proof heading"],
+  .desktop-page .section-12 [data-node-id="8478:25589"]{max-width:var(--content-max-width)}
+  .desktop-page .section-5 [data-node-id="8404:26730"],
+  .desktop-page .section-5 [data-node-id="8404:26733"]{max-width:var(--content-max-width)}
+  .desktop-page .section-10>div>div:not([data-name="Consulting / Platforms tabs"]){width:100%;max-width:var(--content-max-width);margin-inline:auto}
+  .desktop-page .section-10 [data-name^="Capability row"]{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}
+  .desktop-page .section-10 [data-name^="Capability row"]>div{width:100%;min-width:0}
+  .desktop-page .section-10 [data-name^="Capability row"]>div>p{max-width:100%}
+  /* The blue surface bleeds right, while its text still ends at the content grid. */
+  .desktop-page .section-11 [data-name="ADC blue / track record panel"]{padding-right:var(--page-gutter)}
+  .desktop-page .section-11 [data-name="Measured client outcomes"],
+  .desktop-page .section-11 [data-name="Track record introduction"]{max-width:calc(var(--content-max-width) - 80px)}
+  .desktop-page .section-15 [data-name="Footer link groups and subscription"]{justify-content:space-between;gap:32px}
+  /* Testimonials remain a deliberate full-bleed drag track; cards have fixed widths. */
+  .desktop-page .section-12 [data-name="Impact stories / drag horizontally"]{max-width:none}
+}
+@media(min-width:1024px){
+  .desktop-sticky-header [data-node-id="8404:27068"]{left:var(--minimum-gutter,84px)}
+  .desktop-sticky-header [data-node-id="8404:27065"]{right:var(--minimum-gutter,84px)}
+  .desktop-page .section-5 [data-node-id="8404:26733"]{clip-path:none;overflow:visible}
+}

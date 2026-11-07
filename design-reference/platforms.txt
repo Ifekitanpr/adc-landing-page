@@ -1,0 +1,427 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/608f57a3-c4de-4d01-a7a2-b26c3d4d8ade";
+const imgStrategyPreview = `${assetPathPrefix}/f100c.png`;
+const imgGoToStrategy = `${assetPathPrefix}/1968a.svg`;
+const imgGoToPeople = `${assetPathPrefix}/367ac.svg`;
+const imgGoToWork = `${assetPathPrefix}/ed93f.svg`;
+const imgFlowConnections = `${assetPathPrefix}/4e529.svg`;
+const imgFlowConnections1 = `${assetPathPrefix}/86546.svg`;
+const imgFlowConnections2 = `${assetPathPrefix}/33656.svg`;
+const imgFlowConnections3 = `${assetPathPrefix}/cbdca.svg`;
+const imgFlowConnections4 = `${assetPathPrefix}/713fa.svg`;
+const imgFlowConnections5 = `${assetPathPrefix}/a5596.svg`;
+const imgGaugeEditableProgress = `${assetPathPrefix}/3f686.svg`;
+const imgGaugeEditableProgress1 = `${assetPathPrefix}/9c326.svg`;
+
+type AdcPadiworksThumbnailCarouselProps = {
+  className?: string;
+  slide?: "Strategy";
+};
+
+function AdcPadiworksThumbnailCarousel({ className, slide = "Strategy" }: AdcPadiworksThumbnailCarouselProps) {
+  return (
+    <div className={className || "h-[250px] relative w-[389.333px]"} data-node-id="8463:25458">
+      <div className="absolute h-[200px] left-[48.67px] top-[14px] w-[292px]" data-node-id="8463:25459" data-name="Strategy preview">
+        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgStrategyPreview} />
+      </div>
+      <div className="absolute left-[176.67px] size-[7px] top-[230px]" data-node-id="8463:25460" data-name="Go to Strategy">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGoToStrategy} />
+      </div>
+      <button className="absolute block cursor-pointer left-[191.67px] size-[7px] top-[230px]" data-node-id="8463:25461" data-name="Go to People">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGoToPeople} />
+      </button>
+      <button className="absolute block cursor-pointer left-[206.67px] size-[7px] top-[230px]" data-node-id="8463:25462" data-name="Go to Work">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGoToWork} />
+      </button>
+    </div>
+  );
+}
+
+type AdcConsultingSoftwareProps = {
+  className?: string;
+  step?: "4";
+  tab?: "Consulting" | "Platforms";
+};
+
+function AdcConsultingSoftware({ className, step = "4", tab = "Consulting" }: AdcConsultingSoftwareProps) {
+  const isConsultingAnd4 = tab === "Consulting" && step === "4";
+  const isPlatformsAnd4 = tab === "Platforms" && step === "4";
+  return (
+    <div className={className || "bg-white content-stretch flex flex-col gap-[36px] items-center pb-[88px] pt-[96px] px-[100px] relative w-[1440px]"} id={isPlatformsAnd4 ? "node-8436_25388" : "node-8436_25326"}>
+      <div className="[word-break:break-word] content-stretch flex flex-col gap-[18px] items-center not-italic overflow-clip relative shrink-0 text-center w-[1240px]" id={isPlatformsAnd4 ? "node-8436_25389" : "node-8436_25327"} data-name="Section heading">
+        <p className="font-['Poppins:SemiBold'] leading-[18px] relative shrink-0 text-[#074cde] text-[12px] tracking-[2px] w-[1000px]" id={isPlatformsAnd4 ? "node-8436_25390" : "node-8436_25328"}>{`CONSULTING & SOFTWARE`}</p>
+        <div className="font-['Eina04-Bold:☞'] leading-[0] relative shrink-0 text-[#002b79] text-[56px] w-[1000px]" id={isPlatformsAnd4 ? "node-8436_25391" : "node-8436_25329"}>
+          <p className="leading-[64px] mb-0">Stop renting capability.</p>
+          <p className="leading-[64px]">Start owning it.</p>
+        </div>
+        <p className="font-['Poppins:Regular'] leading-[26px] relative shrink-0 text-[#002b79] text-[17px] w-[1000px]" id={isPlatformsAnd4 ? "node-8436_25392" : "node-8436_25330"}>
+          We deliver alongside your teams, then leave the capability with them.
+        </p>
+      </div>
+      <div className="bg-[#e6edfc] content-stretch flex gap-[8px] items-start overflow-clip p-[6px] relative rounded-[12px] shrink-0 w-[428px]" id={isPlatformsAnd4 ? "node-8436_25393" : "node-8436_25331"} data-name="Consulting / Platforms tabs">
+        {isConsultingAnd4 && (
+          <>
+            <div className="bg-[#074cde] content-stretch flex items-start overflow-clip px-[16px] py-[12px] relative rounded-[8px] shrink-0 w-[204px]" data-node-id="8436:25332" data-name="ADC Consulting">
+              <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[21px] not-italic relative shrink-0 text-[14px] text-center text-white w-[172px]" data-node-id="8436:25333">
+                ADC Consulting
+              </p>
+            </div>
+            <button className="bg-[#e6edfc] content-stretch cursor-pointer flex items-start overflow-clip px-[16px] py-[12px] relative rounded-[8px] shrink-0 w-[204px]" data-node-id="8436:25334" data-name="ADC Platforms">
+              <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[21px] not-italic relative shrink-0 text-[#002b79] text-[14px] text-center w-[172px]" data-node-id="8436:25335">
+                ADC Platforms
+              </p>
+            </button>
+          </>
+        )}
+        {isPlatformsAnd4 && (
+          <>
+            <button className="bg-[#e6edfc] content-stretch cursor-pointer flex items-start overflow-clip px-[16px] py-[12px] relative rounded-[8px] shrink-0 w-[204px]" data-node-id="8436:25394" data-name="ADC Consulting">
+              <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[21px] not-italic relative shrink-0 text-[#002b79] text-[14px] text-center w-[172px]" data-node-id="8436:25395">
+                ADC Consulting
+              </p>
+            </button>
+            <div className="bg-[#074cde] content-stretch flex items-start overflow-clip px-[16px] py-[12px] relative rounded-[8px] shrink-0 w-[204px]" data-node-id="8436:25396" data-name="ADC Platforms">
+              <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[21px] not-italic relative shrink-0 text-[14px] text-center text-white w-[172px]" data-node-id="8436:25397">
+                ADC Platforms
+              </p>
+            </div>
+          </>
+        )}
+      </div>
+      <div className="content-stretch flex gap-[48px] items-center overflow-clip p-[52px] relative rounded-[24px] shrink-0 w-[1240px]" id={isPlatformsAnd4 ? "node-8436_25398" : "node-8436_25336"} style={isPlatformsAnd4 ? { backgroundImage: "linear-gradient(132.82049732990595deg, rgb(18, 63, 150) 10.156%, rgb(7, 59, 156) 47.656%, rgb(0, 43, 121) 88.281%), url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 1240 484' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(49.733 2.5882 -12.894 17.255 626.26 240.53)'><stop stop-color='rgba(128,95,207,0.22)' offset='0'/><stop stop-color='rgba(7,76,222,0.06)' offset='0.65'/><stop stop-color='rgba(7,76,222,0)' offset='1'/></radialGradient></defs></svg>\")" } : { backgroundImage: "linear-gradient(132.82049732990595deg, rgb(255, 243, 230) 10.156%, rgb(255, 224, 189) 49.219%, rgb(255, 197, 143) 88.281%), url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 1240 484' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(49.733 2.5882 -12.894 17.255 626.26 240.53)'><stop stop-color='rgba(255,137,1,0.22)' offset='0'/><stop stop-color='rgba(255,137,1,0.06)' offset='0.65'/><stop stop-color='rgba(255,137,1,0)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="Featured capability panel">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[20px] items-start not-italic overflow-clip relative shrink-0 w-[440px]" id={isPlatformsAnd4 ? "node-8436_25399" : "node-8436_25337"} data-name="Panel introduction">
+          <p className={`font-["Poppins:SemiBold"] leading-[17px] relative shrink-0 text-[11px] w-[440px] ${isPlatformsAnd4 ? "text-[#ff8901]" : "text-[#074cde]"}`} id={isPlatformsAnd4 ? "node-8436_25400" : "node-8436_25338"}>
+            {isPlatformsAnd4 ? "SOFTWARE THAT ENABLES EXECUTION" : "EXPERTISE THAT STAYS WITH YOU"}
+          </p>
+          <div className={`font-["Eina04-Bold:☞"] leading-[0] relative shrink-0 text-[40px] w-[440px] ${isPlatformsAnd4 ? "text-white" : "text-[#002b79]"}`} id={isPlatformsAnd4 ? "node-8436_25401" : "node-8436_25339"}>
+            <p className="leading-[46px] mb-0">{isPlatformsAnd4 ? "Connect strategy." : "Solve today."}</p>
+            <p className="leading-[46px]">{isPlatformsAnd4 ? "Enable execution." : "Build for tomorrow."}</p>
+          </div>
+          <p className={`font-["Poppins:Regular"] leading-[24px] relative shrink-0 text-[16px] w-[420px] ${isPlatformsAnd4 ? "text-white" : "text-[#002b79]"}`} id={isPlatformsAnd4 ? "node-8436_25402" : "node-8436_25340"}>
+            {isPlatformsAnd4 ? "Platforms that connect your work, build confidence and bring performance into focus." : "From product delivery to AI adoption, build lasting capability while solving your most important challenges."}
+          </p>
+        </div>
+        <div className="h-[380px] relative rounded-[16px] shrink-0 w-[648px]" id={isPlatformsAnd4 ? "node-8436_25403" : "node-8436_25341"} data-name="ADC capability workflow">
+          <div className="absolute h-[380px] left-0 top-0 w-[648px]" id={isPlatformsAnd4 ? "node-8440_25422" : "node-8440_25393"} data-name="Reveal stage 1">
+            <div className={`[word-break:break-word] absolute content-stretch flex font-["Poppins:Regular"] h-[42px] items-start leading-[0] left-0 not-italic overflow-clip rounded-[8px] text-[11px] text-center top-0 w-[648px] ${isPlatformsAnd4 ? "bg-[rgba(255,255,255,0.1)] text-white" : "bg-[rgba(255,255,255,0.45)] text-[#074cde]"}`} id={isPlatformsAnd4 ? "node-8440_25426" : "node-8440_25397"} data-name="Four-stage progress">
+              <div className="flex flex-col h-full justify-center relative shrink-0 w-[162px]" id={isPlatformsAnd4 ? "node-8440_25427" : "node-8440_25398"}>
+                <p className="leading-[16.5px] whitespace-pre-wrap">{isPlatformsAnd4 ? "01   ALIGN" : "01   DISCOVER"}</p>
+              </div>
+              <div className="flex flex-col h-full justify-center relative shrink-0 w-[162px]" id={isPlatformsAnd4 ? "node-8440_25428" : "node-8440_25399"}>
+                <p className="leading-[16.5px] whitespace-pre-wrap">{isPlatformsAnd4 ? "02   CONNECT" : "02   DESIGN"}</p>
+              </div>
+              <div className="flex flex-col h-full justify-center relative shrink-0 w-[162px]" id={isPlatformsAnd4 ? "node-8440_25429" : "node-8440_25400"}>
+                <p className="leading-[16.5px] whitespace-pre-wrap">{isPlatformsAnd4 ? "03   EXECUTE" : "03   DELIVER"}</p>
+              </div>
+              <div className="flex flex-col h-full justify-center relative shrink-0 w-[162px]" id={isPlatformsAnd4 ? "node-8440_25430" : "node-8440_25401"}>
+                <p className="leading-[16.5px] whitespace-pre-wrap">{isPlatformsAnd4 ? "04   IMPROVE" : "04   TRANSFER"}</p>
+              </div>
+            </div>
+            {isConsultingAnd4 && (
+              <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[224px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[68px] w-[200px]" data-node-id="8440:25402" data-name="Business challenge">
+                <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[184px]" data-node-id="8440:25403">
+                  Business challenge
+                </p>
+              </div>
+            )}
+            {isPlatformsAnd4 && (
+              <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[224px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[68px] w-[200px]" data-node-id="8440:25431" data-name="Strategy & priorities">
+                <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#074cde] text-[11px] text-center w-[184px]" data-node-id="8440:25432">{`Strategy & priorities`}</p>
+              </div>
+            )}
+          </div>
+          <div className="absolute h-[380px] left-0 top-0 w-[648px]" id={isPlatformsAnd4 ? "node-8440_25423" : "node-8440_25394"} data-name="Reveal stage 2">
+            <div className="absolute h-[360px] left-0 top-0 w-[648px]" id={isPlatformsAnd4 ? "node-8440_25433" : "node-8440_25404"} data-name="Flow connections">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={isPlatformsAnd4 ? imgFlowConnections3 : imgFlowConnections} />
+            </div>
+            {isConsultingAnd4 && (
+              <>
+                <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[50px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[158px] w-[216px]" data-node-id="8440:25406" data-name="Discover & diagnose">
+                  <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[200px]" data-node-id="8440:25407">{`Discover & diagnose`}</p>
+                </div>
+                <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[382px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[158px] w-[216px]" data-node-id="8440:25408" data-name="Define the roadmap">
+                  <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[200px]" data-node-id="8440:25409">
+                    Define the roadmap
+                  </p>
+                </div>
+              </>
+            )}
+            {isPlatformsAnd4 && (
+              <>
+                <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[50px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[158px] w-[216px]" data-node-id="8440:25435" data-name="Work & delivery">
+                  <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#074cde] text-[11px] text-center w-[200px]" data-node-id="8440:25436">{`Work & delivery`}</p>
+                </div>
+                <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[382px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[158px] w-[216px]" data-node-id="8440:25437" data-name="People & performance">
+                  <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#074cde] text-[11px] text-center w-[200px]" data-node-id="8440:25438">{`People & performance`}</p>
+                </div>
+              </>
+            )}
+          </div>
+          <div className="absolute h-[380px] left-0 top-0 w-[648px]" id={isPlatformsAnd4 ? "node-8440_25424" : "node-8440_25395"} data-name="Reveal stage 3">
+            <div className="absolute h-[360px] left-0 top-0 w-[648px]" id={isPlatformsAnd4 ? "node-8440_25439" : "node-8440_25410"} data-name="Flow connections">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={isPlatformsAnd4 ? imgFlowConnections4 : imgFlowConnections1} />
+            </div>
+            {isConsultingAnd4 && (
+              <>
+                <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[10px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[246px] w-[200px]" data-node-id="8440:25412" data-name="Products & projects">
+                  <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[184px]" data-node-id="8440:25413">{`Products & projects`}</p>
+                </div>
+                <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[234px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[246px] w-[200px]" data-node-id="8440:25414" data-name="AI & innovation">
+                  <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[184px]" data-node-id="8440:25415">{`AI & innovation`}</p>
+                </div>
+                <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[458px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[246px] w-[200px]" data-node-id="8440:25416" data-name="Digital academies">
+                  <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[184px]" data-node-id="8440:25417">
+                    Digital academies
+                  </p>
+                </div>
+              </>
+            )}
+            {isPlatformsAnd4 && (
+              <>
+                <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[10px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[246px] w-[200px]" data-node-id="8440:25441" data-name="PadiworksAI">
+                  <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#074cde] text-[11px] text-center w-[184px]" data-node-id="8440:25442">
+                    PadiworksAI
+                  </p>
+                </div>
+                <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[234px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[246px] w-[200px]" data-node-id="8440:25443" data-name="CertSprints">
+                  <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#074cde] text-[11px] text-center w-[184px]" data-node-id="8440:25444">
+                    CertSprints
+                  </p>
+                </div>
+                <div className="absolute bg-white content-stretch flex flex-col h-[42px] items-center justify-center left-[458px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[246px] w-[200px]" data-node-id="8440:25445" data-name="Performance systems">
+                  <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#074cde] text-[11px] text-center w-[184px]" data-node-id="8440:25446">
+                    Performance systems
+                  </p>
+                </div>
+              </>
+            )}
+          </div>
+          <div className="absolute h-[380px] left-0 top-0 w-[648px]" id={isPlatformsAnd4 ? "node-8440_25425" : "node-8440_25396"} data-name="Reveal stage 4">
+            <div className="absolute h-[360px] left-0 top-0 w-[648px]" id={isPlatformsAnd4 ? "node-8440_25447" : "node-8440_25418"} data-name="Flow connections">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={isPlatformsAnd4 ? imgFlowConnections5 : imgFlowConnections2} />
+            </div>
+            {isConsultingAnd4 && (
+              <div className="absolute bg-[#ff8901] content-stretch flex flex-col h-[42px] items-center justify-center left-[184px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[334px] w-[280px]" data-node-id="8440:25420" data-name="Capability your team owns">
+                <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[264px]" data-node-id="8440:25421">
+                  Capability your team owns
+                </p>
+              </div>
+            )}
+            {isPlatformsAnd4 && (
+              <div className="absolute bg-[#ff8901] content-stretch flex flex-col h-[42px] items-center justify-center left-[184px] overflow-clip px-[8px] py-[10px] rounded-[8px] top-[334px] w-[280px]" data-node-id="8440:25449" data-name="Clear insight. Stronger execution.">
+                <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] text-center w-[264px]" data-node-id="8440:25450">
+                  Clear insight. Stronger execution.
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+      <div className={`content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[1240px] ${isPlatformsAnd4 ? "" : "[word-break:break-word] gap-[28px] not-italic"}`} id={isPlatformsAnd4 ? "node-8436_25418" : "node-8436_25356"} data-name="Services and platforms">
+        <div className="content-stretch flex gap-[36px] items-start overflow-clip relative shrink-0 w-[1239.999px]" id={isPlatformsAnd4 ? "node-8436_25419" : "node-8436_25357"} data-name="Capability row 0">
+          {isConsultingAnd4 && (
+            <>
+              <div className="border-[#bfc9db] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-[389.333px]" data-node-id="8436:25358" data-name="Product Delivery">
+                <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25359">
+                  01
+                </p>
+                <p className="font-['Eina04-Bold:☞'] leading-[25px] relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25360">
+                  Product Delivery
+                </p>
+                <p className="font-['Poppins:Regular'] leading-[21px] relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25361">
+                  Discover, build, launch and scale AI-enabled products people actually use.
+                </p>
+              </div>
+              <div className="border-[#bfc9db] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-[389.333px]" data-node-id="8436:25362" data-name="Project Delivery">
+                <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25363">
+                  02
+                </p>
+                <p className="font-['Eina04-Bold:☞'] leading-[25px] relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25364">
+                  Project Delivery
+                </p>
+                <p className="font-['Poppins:Regular'] leading-[21px] relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25365">
+                  PMO and EPMO set-up, project management as a service and portfolio recovery.
+                </p>
+              </div>
+              <div className="border-[#bfc9db] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-[389.333px]" data-node-id="8436:25366" data-name="Innovation Consulting">
+                <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25367">
+                  03
+                </p>
+                <p className="font-['Eina04-Bold:☞'] leading-[25px] relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25368">
+                  Innovation Consulting
+                </p>
+                <p className="font-['Poppins:Regular'] leading-[21px] relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25369">
+                  The SHIFT™ framework for new business models and growth.
+                </p>
+              </div>
+            </>
+          )}
+          {isPlatformsAnd4 && (
+            <>
+              <div className="content-stretch flex flex-col gap-[16px] items-start overflow-clip relative shrink-0 w-[389.333px]" data-node-id="8436:25420" data-name="PadiworksAI">
+                <div className="bg-[#e6edfc] content-stretch flex flex-col h-[250px] items-center justify-center overflow-clip relative rounded-[14px] shrink-0 w-[389.333px]" data-node-id="8451:25418" data-name="PadiworksAI thumbnail">
+                  <AdcPadiworksThumbnailCarousel className="h-[250px] relative shrink-0 w-[389.333px]" />
+                </div>
+                <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[17px] not-italic relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25421">
+                  01
+                </p>
+                <p className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[25px] not-italic relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25422">
+                  PadiworksAI
+                </p>
+                <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[21px] not-italic relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25423">
+                  The Execution Intelligence OS. Now you’ll know why.
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col gap-[16px] items-start overflow-clip relative shrink-0 w-[389.333px]" data-node-id="8436:25424" data-name="CertSprints">
+                <div className="bg-[#e6edfc] content-stretch flex flex-col h-[250px] items-center justify-center overflow-clip relative rounded-[14px] shrink-0 w-[389.333px]" data-node-id="8451:25420" data-name="CertSprints thumbnail">
+                  <div className="bg-white border-[#e0e8f2] border-[0.92px] border-solid h-[202.4px] overflow-clip relative rounded-[9.2px] shrink-0 w-[261.28px]" data-node-id="8455:25515" data-name="CertSprints / Ready 97% / editable">
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[18.4px] left-[129.72px] not-italic text-[#172136] text-[12.88px] text-center top-[12.88px] w-[231.84px]" data-node-id="8455:25516">
+                      Exam Readiness
+                    </p>
+                    <div className="absolute h-[88.32px] left-[52.44px] top-[44.16px] w-[154.56px]" data-node-id="8455:25517" data-name="Gauge / editable progress">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGaugeEditableProgress} />
+                    </div>
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[34.96px] left-[129.72px] not-italic text-[#172136] text-[24.84px] text-center top-[81.88px] w-[187.68px]" data-node-id="8455:25520">
+                      97%
+                    </p>
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[15.64px] left-[129.72px] not-italic text-[#12b76a] text-[11.04px] text-center top-[115px] w-[206.08px]" data-node-id="8455:25521">
+                      Ready 🎉
+                    </p>
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[12.88px] left-[129.72px] not-italic text-[#66758f] text-[9.2px] text-center top-[143.52px] w-[231.84px]" data-node-id="8455:25522">
+                      Pro Tip
+                    </p>
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[12.88px] left-[129.72px] not-italic text-[#66758f] text-[9.2px] text-center top-[161px] w-[224.48px]" data-node-id="8455:25523">
+                      You are ready to sit your exam. Focus on recovery exercise to retain knowledge.
+                    </p>
+                  </div>
+                </div>
+                <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[17px] not-italic relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25425">
+                  02
+                </p>
+                <p className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[25px] not-italic relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25426">
+                  CertSprints
+                </p>
+                <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[21px] not-italic relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25427">
+                  Know you’re ready before you book the exam.
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col gap-[16px] items-start overflow-clip relative shrink-0 w-[389.333px]" data-node-id="8436:25428" data-name="Strategy-to-Execution & Performance Systems">
+                <div className="bg-[#e6edfc] content-stretch flex flex-col h-[250px] items-center justify-center overflow-clip relative rounded-[14px] shrink-0 w-[389.333px]" data-node-id="8451:25482" data-name="Strategy systems thumbnail">
+                  <div className="bg-white border-[#e0e8f2] border-[0.92px] border-solid h-[202.4px] overflow-clip relative rounded-[9.2px] shrink-0 w-[285.2px]" data-node-id="8455:25524" data-name="Strategy confidence / Strong 92% / editable">
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[16.56px] left-[141.68px] not-italic text-[#172136] text-[11.96px] text-center top-[12.88px] w-[255.76px]" data-node-id="8455:25525">
+                      AI Strategy Confidence Score
+                    </p>
+                    <div className="absolute h-[88.32px] left-[64.4px] top-[44.16px] w-[154.56px]" data-node-id="8455:25526" data-name="Gauge / editable progress">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGaugeEditableProgress1} />
+                    </div>
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[34.96px] left-[141.68px] not-italic text-[#172136] text-[24.84px] text-center top-[81.88px] w-[211.6px]" data-node-id="8455:25529">
+                      92%
+                    </p>
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[15.64px] left-[141.68px] not-italic text-[#12b76a] text-[11.04px] text-center top-[115px] w-[230px]" data-node-id="8455:25530">
+                      Strong strategy
+                    </p>
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[13.8px] left-[141.68px] not-italic text-[#66758f] text-[10.12px] text-center top-[155.48px] w-[244.72px]" data-node-id="8455:25531">
+                      Clear priorities. Confident execution.
+                    </p>
+                  </div>
+                </div>
+                <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[17px] not-italic relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25429">
+                  03
+                </p>
+                <p className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[25px] not-italic relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25430">{`Strategy-to-Execution & Performance Systems`}</p>
+                <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[21px] not-italic relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25431">
+                  Strategy, work and people performance in one line of sight.
+                </p>
+              </div>
+            </>
+          )}
+        </div>
+        {isConsultingAnd4 && (
+          <div className="content-stretch flex gap-[36px] items-start overflow-clip relative shrink-0 w-[1239.999px]" data-node-id="8436:25370" data-name="Capability row 1">
+            <div className="border-[#bfc9db] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-[389.333px]" data-node-id="8436:25371" data-name="Agile-Digital Transformation">
+              <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25372">
+                04
+              </p>
+              <p className="font-['Eina04-Bold:☞'] leading-[25px] relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25373">
+                Agile-Digital Transformation
+              </p>
+              <p className="font-['Poppins:Regular'] leading-[21px] relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25374">
+                From projects to products. From plans to working results.
+              </p>
+            </div>
+            <div className="border-[#bfc9db] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-[389.333px]" data-node-id="8436:25375" data-name="AI & Generative AI">
+              <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25376">
+                05
+              </p>
+              <p className="font-['Eina04-Bold:☞'] leading-[25px] relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25377">{`AI & Generative AI`}</p>
+              <p className="font-['Poppins:Regular'] leading-[21px] relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25378">
+                From pilots to production: governed, measured and valuable.
+              </p>
+            </div>
+            <div className="border-[#bfc9db] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-[389.333px]" data-node-id="8436:25379" data-name="E-learning as a Service">
+              <p className="font-['Poppins:SemiBold'] leading-[17px] relative shrink-0 text-[#074cde] text-[11px] w-[389px]" data-node-id="8436:25380">
+                06
+              </p>
+              <p className="font-['Eina04-Bold:☞'] leading-[25px] relative shrink-0 text-[#002b79] text-[22px] w-[389px]" data-node-id="8436:25381">
+                E-learning as a Service
+              </p>
+              <p className="font-['Poppins:Regular'] leading-[21px] relative shrink-0 text-[#002b79] text-[14px] w-[389px]" data-node-id="8436:25382">
+                Your own branded academy, from content to platform.
+              </p>
+            </div>
+          </div>
+        )}
+      </div>
+      <div className="content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-[1240px]" id={isPlatformsAnd4 ? "node-8436_25432" : "node-8436_25383"} data-name="Capability diagnostic CTA">
+        <div className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[0] not-italic relative shrink-0 text-[#002b79] text-[22px] w-[650px]" id={isPlatformsAnd4 ? "node-8436_25433" : "node-8436_25384"}>
+          <p className="leading-[25px] mb-0">End every engagement owning</p>
+          <p className="leading-[25px]">capability you used to rent.</p>
+        </div>
+        <div className="bg-[#074cde] content-stretch flex gap-[8px] h-[56px] items-center justify-center overflow-clip px-[40px] py-[17px] relative rounded-[6px] shrink-0 w-[380px]" id={isPlatformsAnd4 ? "node-8436_25434" : "node-8436_25385"} data-name="Button">
+          <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text\/white,white)] text-center whitespace-nowrap" id={isPlatformsAnd4 ? "node-I8436_25434-11_1470" : "node-I8436_25385-11_1470"}>
+            <p className="leading-[22px]">Book a free capability diagnostic</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: ADC COLORS/Primary/P300: #074CDE, ADC COLORS/Primary/P500: #002B79, ADC COLORS/Primary/P50: #E6EDFC, ADC COLORS/Primary/ADC White: #FFFFFF, ADC COLORS/Secondary/S300: #FF8901.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Tab=Platforms, Step=4
+**Node ID:** 8436:25388
+
+ADC consulting and software. Content from both source tabs, styled around the 101gen use-case composition.
+
+## ADC / Consulting & Software
+**Node ID:** 8436:25437
+
+ADC consulting and software. White section background; four-stage branching flow reveal in each tab. 0.7s initial delay, 0.8s between steps, 0.45s Smart Animate; holds completed flow.
+
+## ADC / Padiworks thumbnail carousel
+**Node ID:** 8463:25473
+
+Three Padiworks previews. Auto advance every 3.5 seconds, with manual pagination dots.
+
+## Type=Primary, Category=Standard, Shape=Rectangle, Size=Big, State=Defaut
+**Node ID:** 11:1468
+
+**Documentation:**
+- [https://arco.design/react/components/button](https://arco.design/react/components/button)
+
+## Button
+**Node ID:** 11:1437
+
+Button
+
+**Documentation:**
+- [https://arco.design/react/components/button](https://arco.design/react/components/button)
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

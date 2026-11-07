@@ -1,0 +1,70 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/c5167ef7-747b-4208-870a-7b182ae5b9f4";
+const imgVector45 = `${assetPathPrefix}/77148.svg`;
+
+export default function Frame1686553281() {
+  return (
+    <div className="bg-[#fff3e6] content-stretch flex flex-col items-center px-[84px] py-[100px] relative size-full" data-node-id="8404:26805">
+      <div className="absolute h-[568.117px] left-0 top-0 w-[1441.49px]" data-node-id="8404:26806">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector45} />
+      </div>
+      <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 w-full" data-node-id="8404:26807">
+        <div className="[word-break:break-word] flex flex-col font-['Eina04-Bold:☞'] justify-center leading-[0] not-italic relative shrink-0 text-[#171718] text-[32px] text-center w-full whitespace-pre-wrap" data-node-id="8404:26808">
+          <p className="leading-[normal] mb-0">{`Training builds skills. Consulting delivers outcomes. `}</p>
+          <p className="leading-[normal]">Systems make them repeatable. ADC makes them one engine.</p>
+        </div>
+      </div>
+      <div className="absolute h-[154.778px] left-[289.54px] top-[298px] w-[860.912px]" data-node-id="8429:28114">
+        <div className="absolute flex h-[82.297px] items-center justify-center left-0 top-[60.26px] w-[162.374px]" data-node-id="8429:28115">
+          <div className="flex-none rotate-[-13.98deg]">
+            <div className="bg-white content-stretch flex items-center justify-center p-[10px] relative rounded-[20px] w-[155.878px]">
+              <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#4b4a4c] text-[16px] text-center whitespace-nowrap" data-node-id="8429:28116">
+                <p className="leading-[26px]">Applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex h-[80.691px] items-center justify-center left-[185.41px] top-[6.52px] w-[155.923px]" data-node-id="8429:28117">
+          <div className="flex-none rotate-[-13.98deg]">
+            <div className="bg-white content-stretch flex items-center justify-center p-[10px] relative rounded-[20px] w-[149.231px]">
+              <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#4b4a4c] text-[16px] text-center w-[89.928px]" data-node-id="8429:28118">
+                <p className="leading-[26px]">Measured</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex h-[96.324px] items-center justify-center left-[534.36px] top-0 w-[155.812px]" data-node-id="8429:28119">
+          <div className="flex-none rotate-[20.95deg]">
+            <div className="bg-white content-stretch flex items-center justify-center p-[10px] relative rounded-[20px] w-[149.231px]">
+              <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#4b4a4c] text-[16px] text-center whitespace-nowrap" data-node-id="8429:28120">
+                <p className="leading-[26px]">Credentialed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex h-[96.324px] items-center justify-center left-[705.1px] top-[58.45px] w-[155.812px]" data-node-id="8429:28121">
+          <div className="flex-none rotate-[20.95deg]">
+            <div className="bg-white content-stretch flex items-center justify-center p-[10px] relative rounded-[20px] w-[149.231px]">
+              <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#4b4a4c] text-[16px] text-center whitespace-nowrap" data-node-id="8429:28122">
+                <p className="leading-[26px]">Connected</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: ADC COLORS/Primary/P50: #E6EDFC, ADC COLORS/Grey/G500: #171718, Heading/H3/Bold: Font(family: "Eina04-Bold", style: ☞, size: 32, weight: 400, lineHeight: 100, letterSpacing: 0), ADC COLORS/Grey/G200: #4B4A4C, Body/Normal/Regular: Font(family: "Poppins", style: Regular, size: 16, weight: 400, lineHeight: 26, letterSpacing: 0), ADC COLORS/Primary/ADC White: #FFFFFF, ADC COLORS/Secondary/S50: #FFF3E6.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

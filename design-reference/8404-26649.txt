@@ -1,0 +1,209 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/b4a527b4-b607-4af0-8884-ea199b585790";
+const imgFrame2147225075 = `${assetPathPrefix}/ab6da.png`;
+const imgRectangle18075 = `${assetPathPrefix}/8a3ce.png`;
+const imgRectangle10855 = `${assetPathPrefix}/9cda4.png`;
+const imgFrame2147225076 = `${assetPathPrefix}/3f98b.png`;
+const imgRectangle18076 = `${assetPathPrefix}/97853.png`;
+const imgRectangle11 = `${assetPathPrefix}/046cc.png`;
+const imgElements = `${assetPathPrefix}/534bd.svg`;
+const imgElements1 = `${assetPathPrefix}/527ac.svg`;
+const imgRectangle828207 = `${assetPathPrefix}/42831.svg`;
+const imgEllipse21864 = `${assetPathPrefix}/96da5.svg`;
+const imgEllipse21863 = `${assetPathPrefix}/cc072.svg`;
+const imgRectangle10 = `${assetPathPrefix}/e1de9.svg`;
+const imgElements2 = `${assetPathPrefix}/9b685.svg`;
+
+export default function Frame1686553277() {
+  return (
+    <div className="bg-[#e6edfc] content-stretch flex flex-col items-center justify-center px-[84px] py-[100px] relative size-full" data-node-id="8404:26649">
+      <div className="bg-[#e6edfc] content-stretch flex flex-col gap-[60px] items-center justify-center p-[100px] relative shrink-0 w-full" data-node-id="8404:26650">
+        <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="8404:26651">
+          <div className="flex h-[405.083px] items-center justify-center relative shrink-0 w-[423.456px]" data-node-id="8404:26652">
+            <div className="flex-none rotate-[-3.66deg]">
+              <div className="content-stretch drop-shadow-[0px_24px_24px_rgba(23,23,23,0.18)] flex flex-col h-[380.332px] items-start relative w-[400px]">
+                <div className="bg-white border border-[#e2e8f0] border-solid content-stretch flex flex-col gap-[32px] h-[376.46px] items-center p-[26px] relative rounded-[16px] shrink-0 w-full" data-node-id="8404:26653">
+                  <div className="border border-[#f1f5f9] border-solid h-[251.317px] overflow-clip relative rounded-[8px] shrink-0 w-full" data-node-id="8404:26654">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgFrame2147225075} />
+                    <div className="absolute h-[249px] left-[-1px] top-[-1px] w-[360px]" data-node-id="8404:26655">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle18075} />
+                    </div>
+                    <div className="absolute bottom-[-0.68px] h-[32.005px] left-[-1px] w-[360px]" data-node-id="8404:26656">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle10855} />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="8404:26657">
+                    <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[normal] not-italic relative shrink-0 text-[#262527] text-[20px] w-full" data-node-id="8404:26658">
+                      Capable People
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="overflow-clip relative shrink-0 size-[40px]" data-node-id="8404:26659" data-name="plus-sign">
+            <div className="absolute inset-[16.67%]" data-node-id="I8404:26659;8:19739" data-name="elements">
+              <div className="absolute inset-[-4.69%]">
+                <img alt="" className="block max-w-none size-full" src={imgElements} />
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center relative shrink-0 size-[425.774px]" data-node-id="8404:26660">
+            <div className="flex-none rotate-[3.82deg]">
+              <div className="bg-white border border-[#e2e8f0] border-solid content-stretch drop-shadow-[0px_24px_24px_rgba(23,23,23,0.18)] flex flex-col gap-[32px] items-center p-[26px] relative rounded-[16px] size-[400px]">
+                <div className="border border-[#f1f5f9] border-solid h-[254.454px] overflow-clip relative rounded-[8px] shrink-0 w-full" data-node-id="8404:26661">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgFrame2147225076} />
+                  <div className="absolute h-[249px] left-[-1px] top-[-1px] w-[360px]" data-node-id="8404:26662">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle18076} />
+                  </div>
+                  <div className="absolute bottom-[-0.55px] h-[32.005px] left-[-1px] w-[360px]" data-node-id="8404:26663">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle10855} />
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="8404:26664">
+                  <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[normal] not-italic relative shrink-0 text-[#262527] text-[20px] w-full" data-node-id="8404:26665">
+                    Integrated Systems
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="overflow-clip relative shrink-0 size-[40px]" data-node-id="8404:26666" data-name="equal-sign">
+          <div className="absolute inset-[33.33%_16.67%]" data-node-id="I8404:26666;8:19803" data-name="elements">
+            <div className="absolute inset-[-9.37%_-4.69%]">
+              <img alt="" className="block max-w-none size-full" src={imgElements1} />
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[34px] items-center justify-center p-[60px] relative shrink-0 w-full" data-node-id="8404:26667">
+          <div className="-translate-x-1/2 absolute h-[376.33px] left-1/2 top-0 w-[1072px]" data-node-id="8404:26668">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle828207} />
+          </div>
+          <div className="content-stretch flex gap-[60px] items-center relative shrink-0" data-node-id="8404:26669">
+            <div className="[word-break:break-word] flex flex-col font-['Eina04-Bold:☞'] justify-center leading-[0] not-italic relative shrink-0 text-[32px] text-white w-[385.909px]" data-node-id="8404:26670">
+              <p className="leading-[normal]">Measurable Breakthrough Performance</p>
+            </div>
+            <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-[440px]" data-node-id="8404:26671">
+              <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-[395px]" data-node-id="8404:26672">
+                <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[normal] not-italic relative shrink-0 text-[#ff8901] text-[14px] w-full" data-node-id="8404:26673">
+                  WHAT BECOMES POSSIBLE
+                </p>
+                <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full" data-node-id="8404:26674">
+                  <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="8404:26675">
+                    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="8404:26676">
+                      <div className="col-1 ml-0 mt-0 relative row-1 size-[24px]" data-node-id="8404:26677">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse21864} />
+                      </div>
+                      <div className="col-1 ml-[1.14px] mt-[1.14px] relative row-1 size-[21.727px]" data-node-id="8404:26678">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse21863} />
+                      </div>
+                      <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[2.95px] mt-[2.95px] place-items-start relative row-1" data-node-id="8404:26679" data-name="Mask group">
+                        <div className="blur-[0.5px] col-1 h-[45.011px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[31.458px_13.453px] mask-size-[18.105px_18.105px] mix-blend-overlay ml-[-31.46px] mt-[-13.45px] relative row-1 w-[81.019px]" data-node-id="8404:26681" style={{ maskImage: `url("${imgRectangle10}")` }}>
+                          <div aria-hidden className="absolute bg-size-[2.2399999499320984px_2.2399999499320984px] bg-top-left inset-0 opacity-50 pointer-events-none" style={{ backgroundImage: `url("${imgRectangle11}")` }} />
+                        </div>
+                      </div>
+                      <div className="col-1 h-[9.429px] ml-[6px] mt-[7.29px] relative row-1 w-[12px]" data-node-id="8404:26682" data-name="elements">
+                        <div className="absolute inset-[-7.95%_-6.25%]">
+                          <img alt="" className="block max-w-none size-full" src={imgElements2} />
+                        </div>
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="8404:26684">
+                      New value
+                    </p>
+                  </div>
+                  <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="8404:26685">
+                    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="8404:26686">
+                      <div className="col-1 ml-0 mt-0 relative row-1 size-[24px]" data-node-id="8404:26687">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse21864} />
+                      </div>
+                      <div className="col-1 ml-[1.14px] mt-[1.14px] relative row-1 size-[21.727px]" data-node-id="8404:26688">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse21863} />
+                      </div>
+                      <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[2.95px] mt-[2.95px] place-items-start relative row-1" data-node-id="8404:26689" data-name="Mask group">
+                        <div className="blur-[0.5px] col-1 h-[45.011px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[31.458px_13.453px] mask-size-[18.105px_18.105px] mix-blend-overlay ml-[-31.46px] mt-[-13.45px] relative row-1 w-[81.019px]" data-node-id="8404:26691" style={{ maskImage: `url("${imgRectangle10}")` }}>
+                          <div aria-hidden className="absolute bg-size-[2.2399999499320984px_2.2399999499320984px] bg-top-left inset-0 opacity-50 pointer-events-none" style={{ backgroundImage: `url("${imgRectangle11}")` }} />
+                        </div>
+                      </div>
+                      <div className="col-1 h-[9.429px] ml-[6px] mt-[7.29px] relative row-1 w-[12px]" data-node-id="8404:26692" data-name="elements">
+                        <div className="absolute inset-[-7.95%_-6.25%]">
+                          <img alt="" className="block max-w-none size-full" src={imgElements2} />
+                        </div>
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="8404:26694">
+                      AI-enabled productivity
+                    </p>
+                  </div>
+                  <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="8404:26695">
+                    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="8404:26696">
+                      <div className="col-1 ml-0 mt-0 relative row-1 size-[24px]" data-node-id="8404:26697">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse21864} />
+                      </div>
+                      <div className="col-1 ml-[1.14px] mt-[1.14px] relative row-1 size-[21.727px]" data-node-id="8404:26698">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse21863} />
+                      </div>
+                      <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[2.95px] mt-[2.95px] place-items-start relative row-1" data-node-id="8404:26699" data-name="Mask group">
+                        <div className="blur-[0.5px] col-1 h-[45.011px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[31.458px_13.453px] mask-size-[18.105px_18.105px] mix-blend-overlay ml-[-31.46px] mt-[-13.45px] relative row-1 w-[81.019px]" data-node-id="8404:26701" style={{ maskImage: `url("${imgRectangle10}")` }}>
+                          <div aria-hidden className="absolute bg-size-[2.2399999499320984px_2.2399999499320984px] bg-top-left inset-0 opacity-50 pointer-events-none" style={{ backgroundImage: `url("${imgRectangle11}")` }} />
+                        </div>
+                      </div>
+                      <div className="col-1 h-[9.429px] ml-[6px] mt-[7.29px] relative row-1 w-[12px]" data-node-id="8404:26702" data-name="elements">
+                        <div className="absolute inset-[-7.95%_-6.25%]">
+                          <img alt="" className="block max-w-none size-full" src={imgElements2} />
+                        </div>
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="8404:26704">
+                      Faster delivery
+                    </p>
+                  </div>
+                  <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="8404:26705">
+                    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="8404:26706">
+                      <div className="col-1 ml-0 mt-0 relative row-1 size-[24px]" data-node-id="8404:26707">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse21864} />
+                      </div>
+                      <div className="col-1 ml-[1.14px] mt-[1.14px] relative row-1 size-[21.727px]" data-node-id="8404:26708">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse21863} />
+                      </div>
+                      <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[2.95px] mt-[2.95px] place-items-start relative row-1" data-node-id="8404:26709" data-name="Mask group">
+                        <div className="blur-[0.5px] col-1 h-[45.011px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[31.458px_13.453px] mask-size-[18.105px_18.105px] mix-blend-overlay ml-[-31.46px] mt-[-13.45px] relative row-1 w-[81.019px]" data-node-id="8404:26711" style={{ maskImage: `url("${imgRectangle10}")` }}>
+                          <div aria-hidden className="absolute bg-size-[2.2399999499320984px_2.2399999499320984px] bg-top-left inset-0 opacity-50 pointer-events-none" style={{ backgroundImage: `url("${imgRectangle11}")` }} />
+                        </div>
+                      </div>
+                      <div className="col-1 h-[9.429px] ml-[6px] mt-[7.29px] relative row-1 w-[12px]" data-node-id="8404:26712" data-name="elements">
+                        <div className="absolute inset-[-7.95%_-6.25%]">
+                          <img alt="" className="block max-w-none size-full" src={imgElements2} />
+                        </div>
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap" data-node-id="8404:26714">
+                      Sustainable results
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] min-w-full not-italic relative shrink-0 text-[16px] text-center text-white w-[min-content]" data-node-id="8404:26715">
+            <p className="leading-[26px]">{`Don't just adopt AI. Build the capability to transform with it.`}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Gray/10: #F1F5F9, ADC COLORS/Grey/G300: #262527, Body/Big/SemiBold: Font(family: "Poppins", style: SemiBold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0), White: #FFFFFF, Gray/20: #E2E8F0, Shadow/2xl: Effect(type: DROP_SHADOW, color: #1717172E, offset: (0, 24), radius: 48, spread: -12), ADC COLORS/Primary/P300: #074CDE, ADC COLORS/Primary/ADC White: #FFFFFF, Heading/H3/Bold: Font(family: "Eina04-Bold", style: ☞, size: 32, weight: 400, lineHeight: 100, letterSpacing: 0), ADC COLORS/Secondary/S300: #FF8901, Body/Small/SemiBold: Font(family: "Poppins", style: SemiBold, size: 14, weight: 600, lineHeight: 100, letterSpacing: 0), ADC COLORS/Secondary/S100: #FFBB6C, Primary/Blue/500: #007BFF, Body/Normal/Regular: Font(family: "Poppins", style: Regular, size: 16, weight: 400, lineHeight: 26, letterSpacing: 0), ADC COLORS/Primary/P50: #E6EDFC.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

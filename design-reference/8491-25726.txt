@@ -1,0 +1,127 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/141a1b67-b220-4eb5-9019-b4a9c8557fed";
+const imgSubscribeArrow = `${assetPathPrefix}/e98b4.svg`;
+const imgAdcMarkFullContrast = `${assetPathPrefix}/9f711.svg`;
+const imgSocialLinkedIn = `${assetPathPrefix}/8cce7.svg`;
+const imgSocialYouTube = `${assetPathPrefix}/49049.svg`;
+const imgSocialInstagram = `${assetPathPrefix}/cc867.svg`;
+const imgSocialX = `${assetPathPrefix}/2624f.svg`;
+
+export default function AdcFooterDarkBlue() {
+  return (
+    <div className="bg-[#061d49] content-stretch flex flex-col gap-[36px] items-start pt-[80px] px-[100px] relative size-full" data-node-id="8491:25726" data-name="ADC Footer / Dark blue">
+      <div className="content-stretch flex gap-[80px] items-start overflow-clip relative shrink-0 w-[1240px]" data-node-id="8491:25727" data-name="Footer link groups and subscription">
+        <div className="[word-break:break-word] content-stretch flex flex-col font-['Poppins:Regular'] gap-[18px] items-start not-italic overflow-clip relative shrink-0 w-[220px]" data-node-id="8491:25728" data-name="[ LEARN ]">
+          <p className="leading-[17.6px] relative shrink-0 text-[#ffbf75] text-[11px] w-[220px]" data-node-id="8491:25729">
+            [ LEARN ]
+          </p>
+          <p className="leading-[22.4px] relative shrink-0 text-[#e6edfc] text-[14px] w-[220px]" data-node-id="8491:25730">
+            Short Courses
+          </p>
+          <p className="leading-[22.4px] relative shrink-0 text-[#e6edfc] text-[14px] w-[220px]" data-node-id="8491:25731">
+            Masterclasses
+          </p>
+          <p className="leading-[22.4px] relative shrink-0 text-[#e6edfc] text-[14px] w-[220px]" data-node-id="8491:25732">
+            Executive Academy
+          </p>
+          <p className="leading-[22.4px] relative shrink-0 text-[#e6edfc] text-[14px] w-[220px]" data-node-id="8491:25733">
+            Bootcamps
+          </p>
+          <p className="leading-[22.4px] relative shrink-0 text-[#e6edfc] text-[14px] w-[220px]" data-node-id="8491:25734">
+            Transformation Catalyst Programme
+          </p>
+        </div>
+        <div className="[word-break:break-word] content-stretch flex flex-col font-['Poppins:Regular'] gap-[18px] items-start not-italic overflow-clip relative shrink-0 w-[220px]" data-node-id="8491:25735" data-name="[ CONSULTING ]">
+          <p className="leading-[17.6px] relative shrink-0 text-[#ffbf75] text-[11px] w-[220px]" data-node-id="8491:25736">
+            [ CONSULTING ]
+          </p>
+          <p className="leading-[22.4px] relative shrink-0 text-[#e6edfc] text-[14px] w-[220px]" data-node-id="8491:25737">
+            Product Delivery
+          </p>
+          <p className="leading-[22.4px] relative shrink-0 text-[#e6edfc] text-[14px] w-[220px]" data-node-id="8491:25738">
+            Project Delivery
+          </p>
+          <p className="leading-[22.4px] relative shrink-0 text-[#e6edfc] text-[14px] w-[220px]" data-node-id="8491:25739">
+            Innovation
+          </p>
+          <p className="leading-[22.4px] relative shrink-0 text-[#e6edfc] text-[14px] w-[220px]" data-node-id="8491:25740">{`AI & Generative AI`}</p>
+        </div>
+        <div className="[word-break:break-word] content-stretch flex flex-col font-['Poppins:Regular'] gap-[18px] items-start not-italic overflow-clip relative shrink-0 w-[180px]" data-node-id="8491:25741" data-name="[ PLATFORMS ]">
+          <p className="leading-[17.6px] relative shrink-0 text-[#ffbf75] text-[11px] w-[180px]" data-node-id="8491:25742">
+            [ PLATFORMS ]
+          </p>
+          <p className="leading-[22.4px] relative shrink-0 text-[#e6edfc] text-[14px] w-[180px]" data-node-id="8491:25743">
+            CertSprints
+          </p>
+          <p className="leading-[22.4px] relative shrink-0 text-[#e6edfc] text-[14px] w-[180px]" data-node-id="8491:25744">
+            PadiworksAI
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col gap-[18px] items-start overflow-clip relative shrink-0 w-[380px]" data-node-id="8491:25745" data-name="Newsletter">
+          <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[17.6px] not-italic relative shrink-0 text-[#ffbf75] text-[11px] w-[380px]" data-node-id="8491:25746">
+            [ STAY CURIOUS ]
+          </p>
+          <div className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[0] not-italic relative shrink-0 text-[#e6edfc] text-[27px] w-[380px]" data-node-id="8491:25747">
+            <p className="leading-[32.4px] mb-0">One idea. One tool.</p>
+            <p className="leading-[32.4px]">Every month.</p>
+          </div>
+          <div className="bg-[#12294f] border border-[rgba(229,237,252,0.35)] border-solid content-stretch flex h-[58px] items-center justify-between overflow-clip pl-[16px] pr-[8px] py-[8px] relative rounded-[4px] shrink-0 w-[380px]" data-node-id="8491:25748" data-name="Newsletter / contained email input">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[22.4px] not-italic opacity-70 relative shrink-0 text-[#e6edfc] text-[14px] w-[270px]" data-node-id="8491:25749">
+              Your email address
+            </p>
+            <div className="bg-[#074cde] content-stretch flex items-center justify-center overflow-clip relative rounded-[4px] shrink-0 size-[40px]" data-node-id="8495:25793" data-name="Subscribe / button">
+              <div className="relative shrink-0 size-[24px]" data-node-id="8491:25750" data-name="Subscribe arrow">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSubscribeArrow} />
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] font-['Poppins:Regular'] leading-[0] not-italic opacity-60 relative shrink-0 text-[#e6edfc] text-[10px] w-[380px]" data-node-id="8491:25752">
+            <p className="leading-[16px] mb-0">By subscribing, you agree to receive ADC emails.</p>
+            <p className="leading-[16px]">Unsubscribe any time.</p>
+          </div>
+        </div>
+      </div>
+      <div className="border-[rgba(229,237,252,0.16)] border-solid border-t content-stretch flex items-center justify-between overflow-clip pt-[12px] relative shrink-0 w-[1240px]" data-node-id="8491:25791" data-name="Copyright and legal">
+        <div className="h-[27.956px] relative shrink-0 w-[68px]" data-node-id="8495:25794" data-name="ADC mark / full contrast">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAdcMarkFullContrast} />
+        </div>
+        <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[17.6px] not-italic opacity-70 relative shrink-0 text-[#e6edfc] text-[11px] w-[270px]" data-node-id="8491:25792">
+          © 2023–2026 Agile Digital College
+        </p>
+        <div className="content-stretch flex gap-[18px] items-start overflow-clip relative shrink-0" data-node-id="8495:25799" data-name="Social media icons">
+          <div className="relative shrink-0 size-[20px]" data-node-id="8497:25726" data-name="Social / LinkedIn">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSocialLinkedIn} />
+          </div>
+          <div className="relative shrink-0 size-[20px]" data-node-id="8497:25728" data-name="Social / YouTube">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSocialYouTube} />
+          </div>
+          <div className="relative shrink-0 size-[20px]" data-node-id="8497:25730" data-name="Social / Instagram">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSocialInstagram} />
+          </div>
+          <div className="relative shrink-0 size-[20px]" data-node-id="8497:25732" data-name="Social / X">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSocialX} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[17.6px] not-italic opacity-70 relative shrink-0 text-[#e6edfc] text-[11px] w-[330px] whitespace-pre-wrap" data-node-id="8491:25793">{`About ADC    Contact    Privacy    Terms`}</p>
+      </div>
+      <div className="h-[85px] overflow-clip relative shrink-0 w-[1240px]" data-node-id="8491:25760" data-name="Agile Digital College / subtle cropped signature">
+        <p className="[word-break:break-word] absolute font-['Eina04-Bold:☞'] leading-[166px] left-[5px] not-italic opacity-16 text-[124.352px] text-white top-[4px] whitespace-nowrap" data-node-id="8498:25726">
+          Agile Digital College
+        </p>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: ADC COLORS/Primary/P50: #E6EDFC, ADC COLORS/Primary/P300: #074CDE, ADC COLORS/Primary/ADC White: #FFFFFF.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

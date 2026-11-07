@@ -1,0 +1,25 @@
+{
+  "errors": [],
+  "reports": [
+    {
+      "width": 1440,
+      "body": 1440,
+      "broken": []
+    },
+    {
+      "width": 1280,
+      "body": 1280,
+      "broken": []
+    },
+    {
+      "width": 768,
+      "body": 768,
+      "broken": []
+    },
+    {
+      "width": 390,
+      "body": 390,
+      "broken": []
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/00a2cf7c-f060-45b6-8fe8-97fce9927d15";
+const imgBackgroundAdcFlowingFabric = `${assetPathPrefix}/47ba8.png`;
+const imgImageProfessionalLearningWorkshop = `${assetPathPrefix}/861de.png`;
+const imgGroup = `${assetPathPrefix}/21bd7.svg`;
+const imgGroup1 = `${assetPathPrefix}/27f14.svg`;
+const imgVuesaxOutlineArrowDown = `${assetPathPrefix}/625c5.svg`;
+const imgLine10 = `${assetPathPrefix}/a3269.svg`;
+
+export default function HeroAdcMidnightAmbient() {
+  return (
+    <div className="content-stretch flex flex-col items-start relative size-full" data-node-id="8404:26515" data-name="HERO — ADC / Midnight ambient">
+      <div className="h-[1198px] relative shrink-0 w-[1440px]" data-node-id="8404:27044">
+        <div className="absolute contents left-0 top-0" data-node-id="8404:27045">
+          <div className="absolute bg-[#002b79] h-[910px] left-0 top-[100px] w-[1440px]" data-node-id="8404:27046" data-name="HERO">
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[910px] left-1/2 top-[calc(50%+0.25px)] w-[1440px]" data-node-id="8404:27047" data-name="Hero / ADC brand geometry composition">
+              <div className="absolute h-[1011.775px] left-0 top-[-101.78px] w-[1440px]" data-node-id="8404:27048" data-name="Background / ADC flowing fabric">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgBackgroundAdcFlowingFabric} />
+              </div>
+              <div className="absolute bg-[rgba(1,24,89,0.41)] h-[910px] left-0 top-0 w-[1440.001px]" data-node-id="8404:27049" />
+            </div>
+            <div className="absolute content-stretch flex flex-col gap-[60px] items-center justify-center left-[160px] top-[119.83px] w-[1120px]" data-node-id="8404:27050">
+              <div className="content-stretch flex flex-col gap-[24px] items-center overflow-clip relative shrink-0 w-[853px]" data-node-id="8404:27051" data-name="Hero / Centred message">
+                <p className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[normal] min-w-full not-italic relative shrink-0 text-[52px] text-center text-white w-[min-content]" data-node-id="8404:27052">
+                  Join the Top 1% of your industry and thrive in an AI-driven world.
+                </p>
+                <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[32px] not-italic relative shrink-0 text-[#e9e9e9] text-[20px] text-center w-[860px]" data-node-id="8404:27053">
+                  For 15+ years, ADC has helped organizations innovate, transform intelligently, adapt rapidly, execute exceptionally and make progress visible.
+                </p>
+                <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-node-id="8404:27054">
+                  <div className="bg-[#074cde] content-stretch flex gap-[8px] h-[60px] items-center justify-center overflow-clip px-[20px] py-[7px] relative rounded-[2px] shrink-0 w-[198px]" data-node-id="8404:27055" data-name="Button">
+                    <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-right text-white whitespace-nowrap" data-node-id="I8404:27055;11:1470">
+                      <p className="leading-[normal]">Browse all progammes</p>
+                    </div>
+                  </div>
+                  <div className="bg-white content-stretch flex gap-[8px] h-[60px] items-center justify-center overflow-clip px-[20px] py-[7px] relative rounded-[2px] shrink-0 w-[198px]" data-node-id="8404:27056" data-name="Button">
+                    <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#171718] text-[14px] whitespace-nowrap" data-node-id="I8404:27056;11:1560">
+                      <p className="leading-[normal]">Explore Services</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="h-[580px] relative rounded-[20px] shrink-0 w-full" data-node-id="8404:27057" data-name="Image / Professional learning workshop">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={imgImageProfessionalLearningWorkshop} />
+              </div>
+            </div>
+            <div className="absolute bg-white border border-[#e6edfc] border-solid content-stretch flex flex-col gap-[12px] items-start left-[76px] overflow-clip p-[24px] rounded-[20px] top-[776px] w-[360px]" data-node-id="8404:27058" data-name="Featured course / Innovation Foundations">
+              <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#074cde] text-[11px] whitespace-nowrap" data-node-id="8404:27059">
+                <p className="leading-[20px]">FREE MINI-COURSE</p>
+              </div>
+              <p className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[32px] not-italic relative shrink-0 text-[#002b79] text-[25px] w-[312px]" data-node-id="8404:27060">
+                Innovation Foundations
+              </p>
+              <div className="bg-[#074cde] content-stretch flex items-start overflow-clip px-[14px] py-[8px] relative rounded-[8px] shrink-0" data-node-id="8404:27062" data-name="Announcement / Start free">
+                <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[13px] text-white whitespace-nowrap" data-node-id="8404:27063">
+                  <p className="leading-[20px]">START FREE!</p>
+                </div>
+              </div>
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[22px] not-italic relative shrink-0 text-[#4b4a4c] text-[14px] w-[312px]" data-node-id="8404:27061">
+                90 minutes to find where your innovation breaks.
+              </p>
+            </div>
+          </div>
+          <div className="absolute bottom-0 h-[1010px] left-0 pointer-events-none top-0" data-node-id="8404:27064">
+            <div className="h-[100px] pointer-events-auto sticky top-0 w-[1440px]" data-name="Header">
+              <div className="-translate-y-1/2 absolute content-stretch flex gap-[20px] h-[48px] items-center left-[calc(75%-35px)] top-1/2 w-[295px]" data-node-id="8404:27065">
+                <a className="bg-[#e9e9e9] content-stretch cursor-pointer flex flex-[1_0_0] gap-[8px] h-full items-center justify-center min-w-px overflow-clip px-[20px] py-[7px] relative rounded-[2px]" data-node-id="8404:27066" data-name="Button">
+                  <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#4b4a4c] text-[14px] text-left whitespace-nowrap" data-node-id="I8404:27066;11:1560">
+                    <p className="leading-[normal]">Log in</p>
+                  </div>
+                </a>
+                <div className="bg-[#074cde] content-stretch flex gap-[8px] h-full items-center justify-center overflow-clip px-[20px] py-[7px] relative rounded-[2px] shrink-0 w-[176px]" data-node-id="8404:27067" data-name="Primary CTA / Free diagnostic">
+                  <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text\/white,white)] text-right whitespace-nowrap" data-node-id="I8404:27067;11:1470">
+                    <p className="leading-[normal]">Free diagnostic</p>
+                  </div>
+                </div>
+              </div>
+              <div className="-translate-y-1/2 absolute content-stretch flex gap-[60px] items-center left-[83.3px] top-1/2" data-node-id="8404:27068">
+                <div className="h-[42px] overflow-clip relative shrink-0 w-[186.857px]" data-node-id="8404:27069" data-name="ADC Horizontal Logo White">
+                  <div className="absolute contents inset-[0_0.02%_0_0]" data-node-id="8404:27070" data-name="Layer 1">
+                    <div className="absolute inset-[0_0.02%_0_39.8%]" data-node-id="8404:27071" data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+                    </div>
+                    <div className="absolute inset-[1.46%_66.56%_37.37%_0]" data-node-id="8404:27091" data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex gap-[10px] items-center relative shrink-0" data-node-id="8404:27096">
+                  <button className="content-stretch cursor-pointer flex gap-[8px] items-center justify-center overflow-clip px-[8px] py-[5px] relative rounded-[2px] shrink-0" data-node-id="8404:27097" data-name="Nav Link">
+                    <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[normal] not-italic relative shrink-0 text-[14px] text-left text-white whitespace-nowrap" data-node-id="I8404:27097;12:6857">
+                      Programmes
+                    </p>
+                    <div className="relative shrink-0 size-[16px]" data-node-id="I8404:27097;12:6862" data-name="vuesax/outline/arrow-down">
+                      <div className="absolute contents inset-0" data-node-id="I8404:27097;12:6862;835:3026" data-name="vuesax/outline/arrow-down">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVuesaxOutlineArrowDown} />
+                      </div>
+                    </div>
+                  </button>
+                  <button className="content-stretch cursor-pointer flex gap-[8px] items-center justify-center overflow-clip px-[8px] py-[5px] relative rounded-[2px] shrink-0" data-node-id="8404:27098" data-name="Nav Link">
+                    <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[normal] not-italic relative shrink-0 text-[14px] text-left text-white whitespace-nowrap" data-node-id="I8404:27098;12:6857">
+                      For Organisations
+                    </p>
+                    <div className="relative shrink-0 size-[16px]" data-node-id="I8404:27098;12:6862" data-name="vuesax/outline/arrow-down">
+                      <div className="absolute contents inset-0" data-node-id="I8404:27098;12:6862;835:3026" data-name="vuesax/outline/arrow-down">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVuesaxOutlineArrowDown} />
+                      </div>
+                    </div>
+                  </button>
+                  <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip px-[8px] py-[5px] relative rounded-[2px] shrink-0" data-node-id="8404:27099" data-name="Navigation / Insights">
+                    <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[normal] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="I8404:27099;12:6857">
+                      Insights
+                    </p>
+                  </div>
+                  <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip px-[8px] py-[5px] relative rounded-[2px] shrink-0" data-node-id="8501:25726" data-name="Navigation / Contact">
+                    <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[normal] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="I8501:25726;12:6857">
+                      Contact
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute bottom-0 h-0 left-0 w-[1440px]" data-node-id="8404:27100">
+                <div className="absolute inset-[-1px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine10} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="[word-break:break-word] bg-white content-stretch flex h-[132px] items-start not-italic overflow-clip px-[8px] py-[20px] relative rounded-[8px] shrink-0 text-center w-[1440px]" data-node-id="8404:26563" data-name="Metrics / Simple proof strip">
+        <div className="content-stretch flex flex-col gap-[4px] h-[92px] items-center justify-center overflow-clip px-[16px] relative shrink-0 w-[356px]" data-node-id="8404:26564" data-name="Metric / 15+">
+          <p className="font-['Eina04-SemiBold:☞'] leading-[44px] relative shrink-0 text-[#074cde] text-[36px] w-full" data-node-id="8404:26565">
+            15+
+          </p>
+          <p className="font-['Poppins:Regular'] leading-[22px] relative shrink-0 text-[#4b4a4c] text-[14px] w-full" data-node-id="8404:26566">
+            years building leaders
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col gap-[4px] h-[92px] items-center justify-center overflow-clip px-[16px] relative shrink-0 w-[356px]" data-node-id="8404:26567" data-name="Metric / 50,000+">
+          <p className="font-['Eina04-SemiBold:☞'] leading-[44px] relative shrink-0 text-[#074cde] text-[36px] w-full" data-node-id="8404:26568">
+            50,000+
+          </p>
+          <p className="font-['Poppins:Regular'] leading-[22px] relative shrink-0 text-[#4b4a4c] text-[14px] w-full" data-node-id="8404:26569">
+            professionals trained
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col gap-[4px] h-[92px] items-center justify-center overflow-clip px-[16px] relative shrink-0 w-[356px]" data-node-id="8404:26570" data-name="Metric / 1,000+">
+          <p className="font-['Eina04-SemiBold:☞'] leading-[44px] relative shrink-0 text-[#074cde] text-[36px] w-full" data-node-id="8404:26571">
+            1,000+
+          </p>
+          <p className="font-['Poppins:Regular'] leading-[22px] relative shrink-0 text-[#4b4a4c] text-[14px] w-full" data-node-id="8404:26572">
+            projects delivered
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col gap-[4px] h-[92px] items-center justify-center overflow-clip px-[16px] relative shrink-0 w-[356px]" data-node-id="8404:26573" data-name="Metric / 98%">
+          <p className="font-['Eina04-SemiBold:☞'] leading-[44px] relative shrink-0 text-[#074cde] text-[36px] w-full" data-node-id="8404:26574">
+            98%
+          </p>
+          <p className="font-['Poppins:Regular'] leading-[22px] relative shrink-0 text-[#4b4a4c] text-[14px] w-full" data-node-id="8404:26575">
+            client rating
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: ADC COLORS/Primary/ADC White: #FFFFFF, Heading/H1/Bold: Font(family: "Eina04-Bold", style: ☞, size: 52, weight: 400, lineHeight: 100, letterSpacing: 0), ADC COLORS/Grey/G50: #E9E9E9, Body/Small/Regular: Font(family: "Poppins", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0), ADC COLORS/Primary/P300: #074CDE, ADC COLORS/Grey/G500: #171718, ADC COLORS/Primary/P500: #002B79, ADC COLORS/Grey/G200: #4B4A4C, ADC COLORS/Primary/P50: #E6EDFC.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Type=Primary, Category=Standard, Shape=Rectangle, Size=Big, State=Defaut
+**Node ID:** 11:1468
+
+**Documentation:**
+- [https://arco.design/react/components/button](https://arco.design/react/components/button)
+
+## Button
+**Node ID:** 11:1437
+
+Button
+
+**Documentation:**
+- [https://arco.design/react/components/button](https://arco.design/react/components/button)
+
+## Property 1=Default
+**Node ID:** 12:6875
+
+展示名：文本按钮
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

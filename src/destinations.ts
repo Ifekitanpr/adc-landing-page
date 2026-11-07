@@ -1,0 +1,2 @@
+/** Supply approved production routes through .env.local. Empty values keep the review dialogs. */
+export const destinations={assessment:import.meta.env.VITE_DIAGNOSTIC_URL,course:import.meta.env.VITE_COURSES_URL,contact:import.meta.env.VITE_CONTACT_URL,insight:import.meta.env.VITE_INSIGHTS_URL,login:import.meta.env.VITE_LOGIN_URL,social:{LinkedIn:import.meta.env.VITE_LINKEDIN_URL,YouTube:import.meta.env.VITE_YOUTUBE_URL,Instagram:import.meta.env.VITE_INSTAGRAM_URL,X:import.meta.env.VITE_X_URL}};

@@ -1,0 +1,345 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/acab534d-f388-4ec8-a3a3-29eed2b618b1";
+const imgImage2 = `${assetPathPrefix}/9e49d.png`;
+const imgImage1 = `${assetPathPrefix}/ac278.png`;
+const imgImage3 = `${assetPathPrefix}/2338f.png`;
+const imgImage4 = `${assetPathPrefix}/c541a.png`;
+const imgImage78 = `${assetPathPrefix}/77b35.png`;
+const imgImage8 = `${assetPathPrefix}/93070.png`;
+const imgImage5 = `${assetPathPrefix}/03ad7.png`;
+const imgImage7 = `${assetPathPrefix}/06eb6.png`;
+const imgImage6 = `${assetPathPrefix}/a0cdb.png`;
+const imgIllustrativePersonaAvatar = `${assetPathPrefix}/d74ff.png`;
+const imgIllustrativePersonaAvatar1 = `${assetPathPrefix}/c6866.png`;
+const imgIllustrativePersonaAvatar2 = `${assetPathPrefix}/f1a35.png`;
+const imgIllustrativePersonaAvatar3 = `${assetPathPrefix}/ea4d3.png`;
+const imgFrame8 = `${assetPathPrefix}/0b052.svg`;
+
+type AdcBrandLogosAutoScrollProps = {
+  className?: string;
+  position?: "Start";
+};
+
+function AdcBrandLogosAutoScroll({ className, position = "Start" }: AdcBrandLogosAutoScrollProps) {
+  return (
+    <div className={className || "h-[90px] overflow-clip relative w-[1240px]"} data-node-id="8478:25589">
+      <div className="absolute content-stretch flex gap-[15px] h-[90px] items-center left-0 overflow-clip top-0 w-[2502px]" data-node-id="8477:25589" data-name="Logo track">
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8477:25590" data-name="Logo slot">
+          <div className="h-[33.772px] relative shrink-0 w-[110px]" data-node-id="8477:25591" data-name="image 2">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage2} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8477:25592" data-name="Logo slot">
+          <div className="h-[22.624px] relative shrink-0 w-[110px]" data-node-id="8477:25593" data-name="image 1">
+            <img alt="" className="absolute inset-0 max-w-none mix-blend-multiply object-cover pointer-events-none size-full" src={imgImage1} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8477:25594" data-name="Logo slot">
+          <div className="h-[34.071px] relative shrink-0 w-[110px]" data-node-id="8477:25595" data-name="image 3">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage3} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8477:25596" data-name="Logo slot">
+          <div className="h-[40px] relative shrink-0 w-[44.923px]" data-node-id="8477:25597" data-name="image 4">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage4} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8477:25598" data-name="Logo slot">
+          <div className="h-[34px] mix-blend-multiply relative shrink-0 w-[100px]" data-node-id="8477:25599" data-name="image 78">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage78} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8477:25600" data-name="Logo slot">
+          <div className="h-[26.115px] relative shrink-0 w-[110px]" data-node-id="8477:25601" data-name="image 8">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage8} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8477:25602" data-name="Logo slot">
+          <div className="h-[26.269px] relative shrink-0 w-[110px]" data-node-id="8477:25603" data-name="image 5">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage5} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8477:25604" data-name="Logo slot">
+          <div className="h-[35px] relative shrink-0 w-[58.902px]" data-node-id="8477:25605" data-name="image 7">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage7} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8477:25606" data-name="Logo slot">
+          <div className="h-[40px] relative shrink-0 w-[100.426px]" data-node-id="8477:25607" data-name="image 6">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage6} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8478:25590" data-name="Logo slot">
+          <div className="h-[33.772px] relative shrink-0 w-[110px]" data-node-id="8478:25591" data-name="image 2">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage2} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8478:25592" data-name="Logo slot">
+          <div className="h-[22.624px] relative shrink-0 w-[110px]" data-node-id="8478:25593" data-name="image 1">
+            <img alt="" className="absolute inset-0 max-w-none mix-blend-multiply object-cover pointer-events-none size-full" src={imgImage1} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8478:25594" data-name="Logo slot">
+          <div className="h-[34.071px] relative shrink-0 w-[110px]" data-node-id="8478:25595" data-name="image 3">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage3} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8478:25596" data-name="Logo slot">
+          <div className="h-[40px] relative shrink-0 w-[44.923px]" data-node-id="8478:25597" data-name="image 4">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage4} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8478:25598" data-name="Logo slot">
+          <div className="h-[34px] mix-blend-multiply relative shrink-0 w-[100px]" data-node-id="8478:25599" data-name="image 78">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage78} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8478:25600" data-name="Logo slot">
+          <div className="h-[26.115px] relative shrink-0 w-[110px]" data-node-id="8478:25601" data-name="image 8">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage8} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8478:25602" data-name="Logo slot">
+          <div className="h-[26.269px] relative shrink-0 w-[110px]" data-node-id="8478:25603" data-name="image 5">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage5} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8478:25604" data-name="Logo slot">
+          <div className="h-[35px] relative shrink-0 w-[58.902px]" data-node-id="8478:25605" data-name="image 7">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage7} />
+          </div>
+        </div>
+        <div className="content-stretch flex h-[70px] items-center justify-center overflow-clip relative shrink-0 w-[124px]" data-node-id="8478:25606" data-name="Logo slot">
+          <div className="h-[40px] relative shrink-0 w-[100.426px]" data-node-id="8478:25607" data-name="image 6">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage6} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function ProofWeEvidenceImpactResonanceConcept() {
+  return (
+    <div className="bg-[#fff3e6] content-stretch flex flex-col gap-[48px] items-center pb-[96px] pt-[100px] relative size-full" data-node-id="8453:25418" data-name="Proof / We evidence impact — Resonance concept">
+      <div className="absolute h-[457.924px] left-[996px] opacity-28 top-[100px] w-[344px]" data-node-id="8458:28868">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame8} />
+      </div>
+      <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip relative shrink-0 w-[1240px]" data-node-id="8453:25419" data-name="Proof heading">
+        <div className="content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-[700px]" data-node-id="8453:25420" data-name="Editorial heading">
+          <div className="bg-[#074cde] content-stretch flex items-start overflow-clip px-[12px] py-[6px] relative rounded-[3px] shrink-0 w-[95px]" data-node-id="8467:25474" data-name="Testimonials / filled label">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[11px] text-white w-[116px]" data-node-id="8467:25475">
+              TESTIMONIALS
+            </p>
+          </div>
+          <div className="content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0" data-node-id="8467:25476" data-name="Highlighted heading line">
+            <p className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[55.2px] not-italic relative shrink-0 text-[#002b79] text-[48px] w-[350px]" data-node-id="8467:25477">
+              We don’t claim
+            </p>
+            <div className="bg-[#074cde] content-stretch flex items-start overflow-clip px-[8px] relative shrink-0" data-node-id="8467:25478" data-name="Blue text highlight">
+              <p className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[55.2px] not-italic relative shrink-0 text-[48px] text-white w-[185px]" data-node-id="8467:25479">
+                impact.
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0" data-node-id="8467:25480" data-name="Highlighted heading line">
+            <p className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[55.2px] not-italic relative shrink-0 text-[#002b79] text-[48px] w-[85px]" data-node-id="8467:25481">
+              We
+            </p>
+            <div className="bg-[#074cde] content-stretch flex items-start overflow-clip px-[8px] relative shrink-0" data-node-id="8467:25482" data-name="Blue text highlight">
+              <p className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[55.2px] not-italic relative shrink-0 text-[48px] text-white w-[285px]" data-node-id="8467:25483">
+                evidence it.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[700px]" data-node-id="8453:25423" data-name="Introduction">
+          <div className="[word-break:break-word] font-['Poppins:Regular'] leading-[0] not-italic relative shrink-0 text-[#002b79] text-[17px] w-[700px] whitespace-pre-wrap" data-node-id="8453:25424">
+            <p className="leading-[26px] mb-0">{`The people behind the progress. `}</p>
+            <p className="leading-[26px]">Conversations about learning, transformation and what comes next.</p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[24px] h-[490px] items-start overflow-x-auto overflow-y-clip relative shrink-0 w-[1440px]" data-node-id="8453:25426" data-name="Impact stories / drag horizontally">
+        <div className="h-[490px] overflow-clip relative shrink-0 w-[90px]" data-node-id="8463:25503" data-name="Clipped previous testimonial edge">
+          <div className="absolute bg-[#002b79] content-stretch flex flex-col gap-[18px] h-[490px] items-start left-[-530px] overflow-clip p-[32px] rounded-[8px] top-0 w-[620px]" data-node-id="8462:25450" data-name="Previous testimonial / clipped preview">
+            <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[16.5px] not-italic relative shrink-0 text-[#afc7ff] text-[11px] w-[444px]" data-node-id="I8462:25450;8457:25460">
+              JAMIE
+            </p>
+            <div className="bg-[#074cde] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[4px] shrink-0 w-[448px]" data-node-id="I8462:25450;8457:25461" data-name="Client testimonial message">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[16px] text-white w-[424px]" data-node-id="I8462:25450;8457:25462">
+                I came in looking for a certificate. I left with a clearer way of thinking, a stronger toolkit and the confidence to take on work I would have hesitated to own before.
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[16px] items-end overflow-clip pt-[24px] relative shrink-0 w-[556px]" data-node-id="I8462:25450;8457:25464" data-name="ADC response">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[#afc7ff] text-[12px] text-right w-[350px]" data-node-id="I8462:25450;8457:25465">
+                ADC
+              </p>
+              <div className="bg-[#0e387a] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[4px] shrink-0 w-[350px]" data-node-id="I8462:25450;8457:25466" data-name="ADC reply bubble">
+                <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[#b8c7e0] text-[16px] w-[326px]" data-node-id="I8462:25450;8457:25467">
+                  This is the good stuff. Confidence through practice.
+                </p>
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute font-['Poppins:Regular'] leading-[20px] left-[112px] not-italic text-[#ceddff] text-[12px] top-[426px] w-[476px] whitespace-pre-wrap" data-node-id="I8462:25450;8457:25468">{`[ Jamie Parker ]  Programme Graduate`}</p>
+            <div className="absolute left-[32px] size-[64px] top-[398px]" data-node-id="I8462:25450;8467:25484" data-name="Illustrative persona avatar">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" height="64" src={imgIllustrativePersonaAvatar} width="64" />
+            </div>
+            <div className="absolute bg-[#ff8901] content-stretch flex items-start left-[400px] opacity-0 overflow-clip px-[12px] py-[6px] rounded-[3px] top-[230px]" data-node-id="I8462:25450;8467:25491" data-name="Click and drag / hover cue">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] w-[130px]" data-node-id="I8462:25450;8467:25492">
+                CLICK AND DRAG
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#002b79] content-stretch flex flex-col gap-[18px] h-[490px] items-start p-[32px] relative rounded-[8px] shrink-0 w-[620px]" data-node-id="8453:25436" data-name="Impact story 1 / EPC COMPANY">
+          <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[16.5px] not-italic relative shrink-0 text-[#afc7ff] text-[11px] w-[444px]" data-node-id="I8453:25436;8457:25460">
+            AMINA
+          </p>
+          <div className="bg-[#074cde] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[4px] shrink-0 w-[448px]" data-node-id="I8453:25436;8457:25461" data-name="Client testimonial message">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[16px] text-white w-[424px]" data-node-id="I8453:25436;8457:25462">
+              Working with ADC changed how we approached the problem. They helped us ask better questions, turn the answers into a practical plan and build the confidence to carry it forward ourselves.
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[16px] items-end overflow-clip pt-[24px] relative shrink-0 w-[556px]" data-node-id="I8453:25436;8457:25464" data-name="ADC response">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[#afc7ff] text-[12px] text-right w-[350px]" data-node-id="I8453:25436;8457:25465">
+              ADC
+            </p>
+            <div className="bg-[#0e387a] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[4px] shrink-0 w-[350px]" data-node-id="I8453:25436;8457:25466" data-name="ADC reply bubble">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[#b8c7e0] text-[16px] w-[326px]" data-node-id="I8453:25436;8457:25467">
+                That’s why we do this. Clarity that becomes action.
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Poppins:Regular'] leading-[20px] left-[112px] not-italic text-[#ceddff] text-[12px] top-[426px] w-[476px] whitespace-pre-wrap" data-node-id="I8453:25436;8457:25468">{`[ Amina Bello ]  Transformation Lead`}</p>
+          <div className="absolute left-[32px] size-[64px] top-[398px]" data-node-id="I8453:25436;8467:25484" data-name="Illustrative persona avatar">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" height="64" src={imgIllustrativePersonaAvatar1} width="64" />
+          </div>
+          <div className="absolute bg-[#ff8901] content-stretch flex items-start left-[400px] opacity-0 overflow-clip px-[12px] py-[6px] rounded-[3px] top-[230px]" data-node-id="I8453:25436;8467:25491" data-name="Click and drag / hover cue">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] w-[130px]" data-node-id="I8453:25436;8467:25492">
+              CLICK AND DRAG
+            </p>
+          </div>
+        </div>
+        <div className="bg-[#002b79] content-stretch flex flex-col gap-[18px] h-[490px] items-start p-[32px] relative rounded-[8px] shrink-0 w-[620px]" data-node-id="8453:25445" data-name="Impact story 2 / PUBLIC SECTOR">
+          <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[16.5px] not-italic relative shrink-0 text-[#afc7ff] text-[11px] w-[444px]" data-node-id="I8453:25445;8457:25460">
+            SARAH
+          </p>
+          <div className="bg-[#074cde] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[4px] shrink-0 w-[448px]" data-node-id="I8453:25445;8457:25461" data-name="Client testimonial message">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[16px] text-white w-[424px]" data-node-id="I8453:25445;8457:25462">
+              This was the first programme where I could connect every lesson to something on my desk. The tools were practical, the feedback was honest and I left knowing what to do next.
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[16px] items-end overflow-clip pt-[24px] relative shrink-0 w-[556px]" data-node-id="I8453:25445;8457:25464" data-name="ADC response">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[#afc7ff] text-[12px] text-right w-[350px]" data-node-id="I8453:25445;8457:25465">
+              ADC
+            </p>
+            <div className="bg-[#0e387a] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[4px] shrink-0 w-[350px]" data-node-id="I8453:25445;8457:25466" data-name="ADC reply bubble">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[#b8c7e0] text-[16px] w-[326px]" data-node-id="I8453:25445;8457:25467">
+                Learn it. Apply it. Keep moving forward.
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Poppins:Regular'] leading-[20px] left-[112px] not-italic text-[#ceddff] text-[12px] top-[426px] w-[476px] whitespace-pre-wrap" data-node-id="I8453:25445;8457:25468">{`[ Sarah Chen ]  Product Manager`}</p>
+          <div className="absolute left-[32px] size-[64px] top-[398px]" data-node-id="I8453:25445;8467:25484" data-name="Illustrative persona avatar">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" height="64" src={imgIllustrativePersonaAvatar2} width="64" />
+          </div>
+          <div className="absolute bg-[#ff8901] content-stretch flex items-start left-[400px] opacity-0 overflow-clip px-[12px] py-[6px] rounded-[3px] top-[230px]" data-node-id="I8453:25445;8467:25491" data-name="Click and drag / hover cue">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] w-[130px]" data-node-id="I8453:25445;8467:25492">
+              CLICK AND DRAG
+            </p>
+          </div>
+        </div>
+        <div className="bg-[#002b79] content-stretch flex flex-col gap-[18px] h-[490px] items-start p-[32px] relative rounded-[8px] shrink-0 w-[620px]" data-node-id="8453:25454" data-name="Impact story 3 / FMCG COMPANY">
+          <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[16.5px] not-italic relative shrink-0 text-[#afc7ff] text-[11px] w-[444px]" data-node-id="I8453:25454;8457:25460">
+            DANIEL
+          </p>
+          <div className="bg-[#ff8901] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[4px] shrink-0 w-[448px]" data-node-id="I8453:25454;8457:25461" data-name="Client testimonial message">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[#002b79] text-[16px] w-[424px]" data-node-id="I8453:25454;8457:25462">
+              What stood out was how closely the team worked with us. They challenged our thinking without taking over, and helped us build a way of working that felt like ours from the start.
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[16px] items-end overflow-clip pt-[24px] relative shrink-0 w-[556px]" data-node-id="I8453:25454;8457:25464" data-name="ADC response">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[#afc7ff] text-[12px] text-right w-[350px]" data-node-id="I8453:25454;8457:25465">
+              ADC
+            </p>
+            <div className="bg-[#0e387a] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[4px] shrink-0 w-[350px]" data-node-id="I8453:25454;8457:25466" data-name="ADC reply bubble">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[#b8c7e0] text-[16px] w-[326px]" data-node-id="I8453:25454;8457:25467">
+                Built together. Owned by your team.
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Poppins:Regular'] leading-[20px] left-[112px] not-italic text-[#ceddff] text-[12px] top-[426px] w-[476px] whitespace-pre-wrap" data-node-id="I8453:25454;8457:25468">{`[ Daniel Brooks ]  Operations Director`}</p>
+          <div className="absolute left-[32px] size-[64px] top-[398px]" data-node-id="I8453:25454;8467:25484" data-name="Illustrative persona avatar">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" height="64" src={imgIllustrativePersonaAvatar3} width="64" />
+          </div>
+          <div className="absolute bg-[#ff8901] content-stretch flex items-start left-[400px] opacity-0 overflow-clip px-[12px] py-[6px] rounded-[3px] top-[230px]" data-node-id="I8453:25454;8467:25491" data-name="Click and drag / hover cue">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] w-[130px]" data-node-id="I8453:25454;8467:25492">
+              CLICK AND DRAG
+            </p>
+          </div>
+        </div>
+        <div className="bg-[#002b79] content-stretch flex flex-col gap-[18px] h-[490px] items-start p-[32px] relative rounded-[8px] shrink-0 w-[620px]" data-node-id="8453:25463" data-name="Impact story 4 / FINTECH">
+          <p className="[word-break:break-word] font-['Poppins:SemiBold'] leading-[16.5px] not-italic relative shrink-0 text-[#afc7ff] text-[11px] w-[444px]" data-node-id="I8453:25463;8457:25460">
+            JAMIE
+          </p>
+          <div className="bg-[#074cde] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[4px] shrink-0 w-[448px]" data-node-id="I8453:25463;8457:25461" data-name="Client testimonial message">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[16px] text-white w-[424px]" data-node-id="I8453:25463;8457:25462">
+              I came in looking for a certificate. I left with a clearer way of thinking, a stronger toolkit and the confidence to take on work I would have hesitated to own before.
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[16px] items-end overflow-clip pt-[24px] relative shrink-0 w-[556px]" data-node-id="I8453:25463;8457:25464" data-name="ADC response">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[#afc7ff] text-[12px] text-right w-[350px]" data-node-id="I8453:25463;8457:25465">
+              ADC
+            </p>
+            <div className="bg-[#0e387a] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[4px] shrink-0 w-[350px]" data-node-id="I8453:25463;8457:25466" data-name="ADC reply bubble">
+              <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[26px] not-italic relative shrink-0 text-[#b8c7e0] text-[16px] w-[326px]" data-node-id="I8453:25463;8457:25467">
+                This is the good stuff. Confidence through practice.
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Poppins:Regular'] leading-[20px] left-[112px] not-italic text-[#ceddff] text-[12px] top-[426px] w-[476px] whitespace-pre-wrap" data-node-id="I8453:25463;8457:25468">{`[ Jamie Parker ]  Programme Graduate`}</p>
+          <div className="absolute left-[32px] size-[64px] top-[398px]" data-node-id="I8453:25463;8467:25484" data-name="Illustrative persona avatar">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" height="64" src={imgIllustrativePersonaAvatar} width="64" />
+          </div>
+          <div className="absolute bg-[#ff8901] content-stretch flex items-start left-[400px] opacity-0 overflow-clip px-[12px] py-[6px] rounded-[3px] top-[230px]" data-node-id="I8453:25463;8467:25491" data-name="Click and drag / hover cue">
+            <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[16.5px] not-italic relative shrink-0 text-[#002b79] text-[11px] w-[130px]" data-node-id="I8453:25463;8467:25492">
+              CLICK AND DRAG
+            </p>
+          </div>
+        </div>
+      </div>
+      <AdcBrandLogosAutoScroll className="h-[90px] overflow-clip relative shrink-0 w-[1240px]" />
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: ADC COLORS/Secondary/S300: #FF8901, ADC COLORS/Primary/P500: #002B79, ADC COLORS/Secondary/S50: #FFF3E6.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## State=Default
+**Node ID:** 8453:25427
+
+Testimonial conversation card: client name, testimonial message, ADC reply, client attribution. All testimonial copy is illustrative draft text, not verified quotations; replace with approved statements and names before publication.
+
+## ADC / Testimonial conversation
+**Node ID:** 8467:25505
+
+Illustrative draft testimonials and sample identities. Hover shows drag affordance. Avatars are illustrative, not verified client identities.
+
+## ADC / Brand logos / Auto scroll
+**Node ID:** 8478:25646
+
+Continuous leftward logo marquee. Duplicated track moves one complete cycle in 15 seconds, then resets instantly. Starts automatically in prototype.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

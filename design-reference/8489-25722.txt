@@ -1,0 +1,75 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/506383a0-0025-4044-a033-c2e22d911c22";
+export default function BeFutureReadyResonanceInspiredFinalCta() {
+  return (
+    <div className="bg-[#002b79] content-stretch flex flex-col gap-[30px] items-center justify-center py-[130px] relative size-full" data-node-id="8489:25722" data-name="Be Future Ready / Resonance-inspired final CTA">
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[96px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25723" data-name="Ambient vertical stripe 0" />
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[200px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25724" data-name="Ambient vertical stripe 1" />
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[304px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25725" data-name="Ambient vertical stripe 2" />
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[408px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25726" data-name="Ambient vertical stripe 3" />
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[512px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25727" data-name="Ambient vertical stripe 4" />
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[616px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25728" data-name="Ambient vertical stripe 5" />
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[720px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25729" data-name="Ambient vertical stripe 6" />
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[824px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25730" data-name="Ambient vertical stripe 7" />
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[928px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25731" data-name="Ambient vertical stripe 8" />
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[1032px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25732" data-name="Ambient vertical stripe 9" />
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[1136px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25733" data-name="Ambient vertical stripe 10" />
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[1240px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25734" data-name="Ambient vertical stripe 11" />
+      <div className="absolute bg-gradient-to-b from-[rgba(229,237,252,0.07)] h-[740px] left-[1344px] to-[rgba(229,237,252,0)] top-0 via-[55%] via-[rgba(229,237,252,0.03)] w-[24px]" data-node-id="8489:25735" data-name="Ambient vertical stripe 12" />
+      <div className="border border-[#ff8901] border-solid content-stretch flex items-start overflow-clip px-[14px] py-[7px] relative rounded-[4px] shrink-0" data-node-id="8489:25736" data-name="Work with ADC / outlined label">
+        <p className="[word-break:break-word] font-['Poppins:Regular'] leading-[19.8px] not-italic relative shrink-0 text-[#ff8901] text-[12px] text-center tracking-[2px] w-[150px]" data-node-id="8489:25737">
+          WORK WITH ADC
+        </p>
+      </div>
+      <p className="[word-break:break-word] font-['Eina04-Bold:☞'] leading-[77.52px] not-italic relative shrink-0 text-[68px] text-center text-white w-[1100px]" data-node-id="8489:25738">
+        Be Future Ready.
+      </p>
+      <div className="[word-break:break-word] font-['Poppins:Regular'] leading-[0] not-italic relative shrink-0 text-[#e6edfc] text-[20px] text-center w-[800px]" data-node-id="8489:25739">
+        <p className="leading-[33px] mb-0">Let’s build what comes next, together.</p>
+        <p className="leading-[33px] mb-0">Find your starting point with a free diagnostic,</p>
+        <p className="leading-[33px]">or take your first step with Innovation Foundations.</p>
+      </div>
+      <div className="content-stretch cursor-pointer flex gap-[16px] items-center overflow-clip relative shrink-0" data-node-id="8489:25740" data-name="Diagnostic and learning actions">
+        <a className="bg-[#074cde] content-stretch flex gap-[8px] h-[56px] items-center justify-center overflow-clip px-[40px] py-[17px] relative rounded-[6px] shrink-0 w-[260px]" href="https://ea18545d-6b62-4f7b-94a5-cda69dd4cb01.frame.claudeusercontent.com/appifact/Main.dc.html#diagnostic" data-node-id="8489:25741" target="_blank" data-name="Book a free diagnostic">
+          <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text\/white,white)] text-center whitespace-nowrap" data-node-id="I8489:25741;11:1470">
+            <p className="leading-[22px]">Book a free diagnostic</p>
+          </div>
+        </a>
+        <a className="border border-[rgba(229,237,252,0.55)] border-solid content-stretch flex gap-[8px] h-[56px] items-center justify-center overflow-clip px-[40px] py-[17px] relative rounded-[6px] shrink-0 w-[340px]" href="https://ea18545d-6b62-4f7b-94a5-cda69dd4cb01.frame.claudeusercontent.com/appifact/Popup.dc.html" data-node-id="8489:25745" target="_blank" data-name="Start Innovation Foundations free">
+          <div className="[word-break:break-word] flex flex-col font-['Poppins:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--text\/white,white)] text-center whitespace-nowrap" data-node-id="I8489:25745;11:1470">
+            <p className="leading-[22px]">Start Innovation Foundations free</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: ADC COLORS/Primary/ADC White: #FFFFFF, ADC COLORS/Primary/P50: #E6EDFC, ADC COLORS/Primary/P300: #074CDE, ADC COLORS/Primary/P500: #002B79.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Type=Primary, Category=Standard, Shape=Rectangle, Size=Big, State=Defaut
+**Node ID:** 11:1468
+
+**Documentation:**
+- [https://arco.design/react/components/button](https://arco.design/react/components/button)
+
+## Button
+**Node ID:** 11:1437
+
+Button
+
+**Documentation:**
+- [https://arco.design/react/components/button](https://arco.design/react/components/button)
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
