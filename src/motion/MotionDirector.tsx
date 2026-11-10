@@ -45,7 +45,7 @@ const chapters: Reveal[] = [
 /** Progressive enhancement for the imported, editable Figma markup. */
 export default function MotionDirector() {
   const reduced = useReducedMotion();
-  useEffect(()=>{const header=document.querySelector('.desktop-sticky-header');const update=()=>{const hero=document.querySelector('[data-node-id="8404:27044"]');const height=document.querySelector('.desktop-nav-surface')?.getBoundingClientRect().height||72;header?.classList.toggle('is-scrolled',!hero||hero.getBoundingClientRect().bottom<=height);header?.classList.toggle('has-hero-glass',window.scrollY>16&&!!hero&&hero.getBoundingClientRect().bottom>height);};window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);update();return()=>{window.removeEventListener('scroll',update);window.removeEventListener('resize',update);};},[]);
+  useEffect(()=>{const header=document.querySelector('.desktop-sticky-header');const update=()=>{const hero=document.querySelector('[data-node-id="8404:27044"]');const height=document.querySelector('.desktop-header-stack')?.getBoundingClientRect().height||72;header?.classList.toggle('is-scrolled',!hero||hero.getBoundingClientRect().bottom<=height);header?.classList.toggle('has-hero-glass',window.scrollY>16&&!!hero&&hero.getBoundingClientRect().bottom>height);};window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);update();return()=>{window.removeEventListener('scroll',update);window.removeEventListener('resize',update);};},[]);
   useEffect(() => {
     const root = document.querySelector('main');
     if (!root) return;

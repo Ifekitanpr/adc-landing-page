@@ -1,0 +1,94 @@
+/* Approved homepage review: shared surfaces and responsive programme previews. */
+.course-announcement{position:relative;z-index:101;background:#e6edfc;color:#061d49;font:400 13px/1.5 Poppins,sans-serif}
+.announcement-inner{min-height:40px;max-width:1272px;margin:auto;padding:6px 20px;display:flex;align-items:center;justify-content:center;gap:12px}
+.announcement-icon{width:26px;height:26px;flex:none;display:grid;place-items:center;background:white;border-radius:8px}
+.announcement-icon img{display:block;width:16px;height:16px}
+.announcement-free{font-size:10px;color:#074cde}.announcement-inner p{margin:0;font:inherit}.announcement-inner strong{font-weight:400}
+.announcement-start{display:flex;align-items:center;justify-content:center;gap:5px;flex:none;background:#fff;color:#074cde;border-radius:20px;padding:5px 14px;font-size:12px;transition:background-color .2s,color .2s;min-height:28px}
+.announcement-start:hover{background:#074cde!important;color:white!important}.announcement-start:focus-visible{outline:2px solid #074cde;outline-offset:3px}
+.capability-adc-mark{position:absolute;width:45px;height:auto;top:-24px;left:50%;translate:-50% 0}
+#architecture [data-node-id="8404:26644"]{white-space:normal;font-size:13px;line-height:18px;width:155px}
+.balance-supporting{font:400 16px/26px Poppins,sans-serif;color:#074cde;opacity:.8;margin:22px auto 0;max-width:750px}
+.balance-result{text-align:center;color:#074cde;display:flex;flex-direction:column;gap:14px;align-items:center;justify-content:center}
+.balance-result small{font:600 10px/18px Poppins,sans-serif;letter-spacing:1px;opacity:.65}
+.balance-result h3{font:700 26px/32px Eina,sans-serif;margin:0}.balance-result p{font:400 12px/22px Poppins,sans-serif;opacity:.75;margin:0}
+#capability .balance-result{position:absolute;left:50%;translate:-50% 0;bottom:78px;width:400px}
+#capability [data-name="Copy / People and systems"]>div{width:29%;max-width:360px}
+#capability [data-name="Copy / People and systems"]>div>p{width:100%;font-size:16px;line-height:26px}
+#capability [data-node-id="8417:27845"]{overflow:visible}
+@media(min-width:1200px){#capability.section-1{height:calc(var(--balance-height,100svh) + 160px)!important}#capability [data-node-id="8417:27809"]{height:100%}#capability [data-name="Copy / People and systems"]{bottom:80px}#capability [data-name="Title / Capability in balance"]{top:130px}#capability [data-node-id="8417:27850"]{top:95px}}
+.assessment-section,.scene-assessment{background:#e6edfc!important}.assessment-label{background:white}
+.assessment-support img{aspect-ratio:3/2;object-fit:contain;background:transparent}
+.programme-explorer{width:100%;padding:12px;background:#fff}
+.programme-panel{position:relative;isolation:isolate;overflow:hidden;border-radius:40px;background:#002b79;color:#fff}
+.programme-background{position:absolute;inset:0;z-index:-2;background:#002b79 url('/assets/review/47ba8.webp') center/cover}.programme-background::after{content:'';position:absolute;inset:0;background:#0003}
+.programme-background video{width:100%;height:100%;object-fit:cover}
+.programme-content{max-width:1272px;margin:auto;padding:84px 0 108px}
+.programme-introduction{display:flex;flex-direction:column;align-items:flex-start;gap:18px}.programme-eyebrow{display:flex;align-items:center;gap:12px;font:600 14px/22px Poppins,sans-serif;color:#99b6f1}.programme-eyebrow img{box-sizing:content-box;padding:6px;background:#05359b;border-radius:8px}
+.programme-introduction h2{font:700 46px/60px Eina,sans-serif;margin:0;color:white}.programme-introduction p{font:400 18px/28px Poppins,sans-serif;margin:0;color:white}
+.programme-tabs{display:flex;gap:12px;overflow:auto;scrollbar-width:thin;padding:0 0 6px;margin-top:40px}
+.programme-tabs button{flex:none;border:1px solid #ffffff4d;border-radius:24px;background:#ffffff14;color:white;padding:12px 20px;font:600 14px/22px Poppins,sans-serif;transition:background-color .2s,color .2s}
+.programme-tabs button:hover{background:#ffffff2b;color:#fff}.programme-tabs button[aria-selected="true"]{background:#fff;color:#074cde;border-color:white}
+.programme-tabs button:focus-visible,.programme-track:focus-visible,.programme-arrows button:focus-visible,.review-button:focus-visible,.programme-card-cta:focus-visible{outline:2px solid #99b6f1;outline-offset:4px}
+.programme-summary{font:400 15px/24px Poppins,sans-serif;min-height:24px;margin:18px 0 34px;color:white}
+.programme-carousel{position:relative}.programme-track{overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#99b6f1 #ffffff15;padding-bottom:12px}
+.programme-card-row{display:flex;gap:20px;align-items:flex-start;width:max-content;min-width:100%}
+.programme-card{flex:0 0 302.75px;width:302.75px;height:465px;overflow:hidden;border-radius:10px;background:white;color:#002b79;scroll-snap-align:start}
+.programme-thumbnail{height:185px;position:relative;overflow:hidden}.programme-thumbnail>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.22,1,.36,1)}
+.programme-card:hover .programme-thumbnail>img{transform:scale(1.045)}
+.programme-card-body{height:280px;position:relative;padding:20px 22px 22px}.programme-card-body>small{display:block;color:#074cde;font:600 11px/16px Poppins,sans-serif;letter-spacing:0}
+.programme-card-body h3{position:absolute;left:22px;right:22px;top:48px;margin:0;height:108px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden;font:600 20px/27px Eina,sans-serif;letter-spacing:0}
+.programme-card-meta{position:absolute;left:22px;right:22px;top:178px;display:flex;align-items:center;justify-content:space-between;color:#262527;font:400 14px/24px Poppins,sans-serif}.programme-card-meta>span{display:flex;align-items:center;gap:5px}.programme-card-meta b{font-weight:600}.programme-card-meta img{width:14px;height:14px}
+.programme-card-cta{position:absolute;left:22px;right:22px;top:218px;display:block;width:calc(100% - 44px);height:40px;background:#074cde;color:#fff;border-radius:22px;font:400 14px/20px Poppins,sans-serif;transition:background-color .2s,color .2s}
+.programme-card-cta:hover{background:#05359b!important;color:white!important}
+.programme-arrows{position:absolute;inset:200px -18px auto;display:flex;justify-content:space-between;pointer-events:none}.programme-arrows button{display:grid;place-items:center;pointer-events:auto;width:36px;height:36px;background:#074cde;color:#fff;border-radius:50%;transition:background .2s}.programme-arrows button:hover{background:#05359b}
+.programme-catalogue-actions{display:flex;justify-content:space-between;gap:16px;margin-top:36px}.review-button{background:#074cde;color:white;border-radius:2px;padding:14px 20px;min-height:48px;font:400 14px/20px Poppins,sans-serif;min-width:260px;transition:background-color .2s,color .2s}.review-button:hover{background:#05359b!important;color:white!important}.review-button-light{background:#e9e9e9;color:#4b4a4c;min-width:230px}.review-button-light:hover{background:#d6dce7!important;color:#002b79!important}
+.review-journey,.review-journey .scene-experience,.review-journey .experience-section{background:white!important}
+.review-journey{height:auto!important;overflow:clip!important}
+.review-journey .experience-intro>span{background:#e6edfc}.review-journey .experience-number{color:#e6edfc}
+.journey-continuation{position:relative;isolation:isolate;min-height:380px;padding:24px var(--page-gutter,84px) 0;background:#fff3e6}
+.journey-chevron{position:absolute;inset:0;z-index:-1}.journey-chevron img{display:block;width:100%;height:100%}
+.journey-statement{font:700 32px/44px Eina,sans-serif;color:#171718;text-align:center;max-width:1272px;margin:auto}
+.journey-pills{display:flex;justify-content:center;align-items:center;gap:42px;min-height:150px;margin:40px auto 0;max-width:900px}.journey-pills>div{position:relative;flex:none;will-change:transform}.journey-pills>div:nth-child(1),.journey-pills>div:nth-child(4){top:52px}.journey-pills span{display:block;border-radius:30px;background:#e6edfc;color:#4b4a4c;padding:16px 30px;font:400 16px/24px Poppins,sans-serif}
+#catalyst [data-node-id="8404:26813"],.catalyst-name-highlight{background:#061d49!important;color:white!important;border-radius:24px}
+#catalyst [data-node-id="8404:26814"],#catalyst [data-node-id="8404:26814"] p{color:white!important}
+#services #node-8436_25419{display:flex;justify-content:center}#services #node-8436_25419>div{width:389.333px;flex:0 0 389.333px}
+#services .platform-flow-asset{display:block}
+@media(prefers-reduced-motion:no-preference){#services .platform-flow-asset{animation:flow-image .55s ease-in-out both;animation-delay:var(--flow-stage);animation-play-state:paused}#services .in-view .platform-flow-asset{animation-play-state:running}}
+@keyframes flow-image{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0)}}
+@media(min-width:1200px){.programme-content{width:calc(100% - 144px)}.review-journey .scene-experience .experience-scroll{height:780px!important}.review-journey .experience-intro{top:100px}.review-journey .experience-scroll .experience-intro h2{font-size:46px}.review-journey .experience-scroll .experience-intro p{font-size:20px}}
+@media(max-width:1199px){
+ .announcement-inner{padding:8px var(--mobile-gutter,24px);justify-content:flex-start;gap:8px;min-height:44px}.announcement-description{display:none}.announcement-inner p{font-size:12px;line-height:18px;flex:1}.announcement-free{font-size:9px}.announcement-start{font-size:11px;padding:6px 10px}.announcement-icon{width:24px;height:24px}
+ .programme-explorer{padding:8px}.programme-panel{border-radius:24px}.programme-content{padding:52px var(--mobile-gutter,24px) 56px;width:auto}.programme-introduction{gap:16px}.programme-introduction h2{font-size:clamp(32px,4.8vw,46px);line-height:1.2}.programme-introduction p{font-size:15px;line-height:25px;max-width:55ch}.programme-eyebrow{font-size:11px;gap:10px}.programme-tabs{margin-top:28px;gap:8px;margin-right:calc(-1 * var(--mobile-gutter));padding-right:var(--mobile-gutter)}.programme-tabs button{font-size:12px;padding:10px 16px;min-height:44px}.programme-summary{font-size:13px;line-height:22px;margin:18px 0 24px}.programme-card{flex-basis:280px;width:280px}.programme-card-row{gap:16px}.programme-card-body h3{font-size:20px}.programme-card-meta{font-size:12px}.programme-track{margin-right:calc(-1 * var(--mobile-gutter));padding-right:var(--mobile-gutter)}.programme-arrows{position:static;margin-top:16px;justify-content:flex-end;gap:12px}.programme-arrows button{width:44px;height:44px}.programme-catalogue-actions{margin-top:28px;flex-wrap:wrap}.programme-catalogue-actions .review-button{flex:1;min-width:220px;font-size:13px}
+ .m-balance .balance-supporting{font-size:14px;line-height:24px}.m-balance .balance-result{padding:28px 0 0;gap:12px}.m-balance .balance-result h3{font-size:26px}.m-balance .balance-result p{font-size:12px;line-height:22px}.m-balance .balance-result small{font-size:10px}
+ .m-journey{background:white;padding-bottom:16px}.m-journey-continuation.m-connected{background:#fff;min-height:0;padding:20px var(--mobile-gutter) 120px;margin:0}.m-journey-continuation .m-connected-copy{font:700 clamp(23px,3.5vw,32px)/1.4 Eina,sans-serif;max-width:38ch}.m-journey-continuation .m-pills{margin:40px auto 0;min-height:0;gap:14px}.m-journey-continuation .m-pills span{background:#e6edfc;color:#002b79;font-size:14px}.m-journey-continuation::after{height:85px}
+ .catalyst-name-highlight{display:inline-block;padding:10px 16px;line-height:1.5;font-size:10px!important;margin-bottom:14px}
+}
+@media(max-width:359px){.announcement-free{display:none}.announcement-inner{gap:6px}.announcement-start{padding:6px 8px}.programme-card{width:256px;flex-basis:256px}.programme-card-meta{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.programme-thumbnail>img,.programme-tabs button,.programme-card-cta,.review-button{transition:none}}
+/* Keep the final learn step and its supporting statement visually connected. */
+@media(min-width:1200px){.review-journey .scene-experience .experience-scroll{height:808px!important}.review-journey .experience-scroll .experience-path{height:808px}.review-journey .experience-step[data-step="1"] .experience-number{top:-116px}}
+@media(max-width:1199px){.m-journey-continuation.m-connected{background:#fff3e6;gap:32px}.m-journey-continuation.m-connected::before{background:white}.m-journey-continuation.m-connected .m-pills{margin:0}.m-journey-continuation.m-connected .m-pills span{background:#e6edfc}}
+/* Announcement and navigation are a single sticky unit. */
+.desktop-sticky-header{height:40px}
+.desktop-header-stack{width:100%;transition:transform .4s var(--motion-ease),opacity .3s ease}
+.desktop-sticky-header.is-pendulum-hidden .desktop-header-stack{transform:translateY(-110%);opacity:0;pointer-events:none}
+.desktop-sticky-header.is-pendulum-hidden .desktop-nav-surface{transform:none;opacity:1}
+html{scroll-padding-top:128px}
+@media(max-width:1199px){
+ .m-sticky-header{position:sticky;top:0;z-index:100;isolation:isolate}
+ .m-sticky-header .m-header{position:relative;top:auto;z-index:1}
+ html{scroll-padding-top:132px}
+ .m-header nav{max-height:calc(100dvh - 116px)}
+}
+@media(prefers-reduced-motion:reduce){.desktop-header-stack{transition:none}}
+.desktop-header-stack>.desktop-nav-surface{position:relative;inset:auto}
+@media(max-width:1199px){.m-sticky-header .m-header.m-header-solid{background:rgba(3,35,94,.94);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}}
+/* The cut hill is live geometry again; its pills settle onto the moving slopes. */
+.journey-hill-surface{display:block;width:100%;height:100%;pointer-events:none;overflow:visible}
+.journey-continuation .journey-pills{position:absolute;left:0;right:0;bottom:0;min-height:0;height:0;margin:0 auto;align-items:flex-end;gap:42px}
+.journey-continuation .journey-pills>.journey-terrain-pill{top:auto;flex:none;transform-origin:50% 100%}
+@media(max-width:1199px){.m-journey-continuation.m-connected::before,.m-journey-continuation.m-connected::after{display:none}.m-journey-continuation .journey-hill-surface{position:absolute;inset:0;z-index:-1}}
+/* Give the closing statement its own cinematic breath within the same white journey. */
+@media(min-width:1200px){.journey-continuation{min-height:clamp(560px,68svh,760px);padding-top:clamp(88px,12svh,140px)}}
+@media(max-width:1199px){.m-journey-continuation.m-connected{padding-top:64px;min-height:clamp(490px,62svh,620px);gap:44px}}

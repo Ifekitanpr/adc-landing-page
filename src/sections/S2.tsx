@@ -9,7 +9,7 @@ const imgUnion = "/assets/figma/8404-26601-imgUnion.svg";
 export default function CapabilityArchitecture() {
  const sceneRef=useScrollChoreography("dial");
  const icons=capabilityIconAssets;
- const select=(index:number)=>{const scene=sceneRef.current?.closest<HTMLElement>('.scroll-scene');if(!scene||scene.dataset.scrollEnabled!=='true')return;const nav=document.querySelector('.desktop-nav-surface')?.getBoundingClientRect().height||72;const r=scene.getBoundingClientRect(),stage=scene.querySelector('.scroll-scene-stage')!.getBoundingClientRect();window.scrollTo({top:scrollY+r.top-nav+(r.height-stage.height)*[0,.36,.64,.96][index],behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'})};
+ const select=(index:number)=>{const scene=sceneRef.current?.closest<HTMLElement>('.scroll-scene');if(!scene||scene.dataset.scrollEnabled!=='true')return;const nav=document.querySelector('.desktop-header-stack')?.getBoundingClientRect().height||72;const r=scene.getBoundingClientRect(),stage=scene.querySelector('.scroll-scene-stage')!.getBoundingClientRect();window.scrollTo({top:scrollY+r.top-nav+(r.height-stage.height)*[0,.36,.64,.96][index],behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'})};
  return (<div ref={sceneRef} className="capability-story" data-node-id="8404:26601" data-motion-native>
   <div className="capability-story-layout" data-node-id="8404:26605">
    <div className="capability-story-copy">
@@ -20,7 +20,7 @@ export default function CapabilityArchitecture() {
     <div className="capability-focus-window" aria-label="Four connected capabilities">
      <div className="capability-focus-track" data-node-id="8404:26606">
       {capabilities.map((item,i)=>{return <button type="button" className="capability-focus-item" key={item.name} data-node-id={`8404:${[26607,26614,26621,26628][i]}`} onClick={()=>select(i)} onFocus={e=>{if(e.currentTarget.matches(':focus-visible'))select(i)}}>
-       <span className="capability-focus-title"><span className="capability-matched-icon" aria-hidden="true" style={{maskImage:`url("${icons[i]}")`,WebkitMaskImage:`url("${icons[i]}")`}}/><span>{item.title}</span></span>
+       <span className="capability-focus-title"><span className="capability-matched-icon" aria-hidden="true" style={{maskImage:`url("${icons[i]}")`,WebkitMaskImage:`url("${icons[i]}")`}}/><span>{item.name}</span></span>
        <span className="capability-focus-body">{item.body}</span>
       </button>})}
      </div>
@@ -36,7 +36,7 @@ export default function CapabilityArchitecture() {
             </div>
           </div>
           <div className="ub9d61ad ua3c9421 u9bf4565 udc4d53a u897a779 uf66bad4 u268b44a u4b730cd ub0e090e ud1551c4 uff9932c u3bd70e0 u59700f3 u70dfd13 u9a2929b u4a97909" data-node-id="8404:26644">
-            <p className="u1333167">CAPABILITY LOOP</p>
+            <img className="capability-adc-mark" src="/assets/review/8404-26601-imgGroup.svg" alt="ADC"/><p className="u1333167">CAPABILITY<br/>LOOP</p>
           </div>
           <div className="ub9d61ad ua3c9421 udc4d53a u80e3751 uef6007d u670933b uaa437b7" data-node-id="8404:26645" data-name="bulb">
             <div className="udc4d53a ue4dadf7" data-node-id="I8404:26645;8:14019" data-name="elements">

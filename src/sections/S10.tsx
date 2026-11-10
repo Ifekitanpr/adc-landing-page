@@ -139,16 +139,12 @@ function AdcConsultingSoftware({ className, step = "4", tab = "Consulting" }: Ad
                     PadiworksAI
                   </p>
                 </div>
-                <div className="udc4d53a u4efc18c ufc3627b u897a779 uf66bad4 u08e85b9 u54183fb u4b730cd u8d6b69f uef6007d u942cc98 ua584871 u1963165 ua012d38 uc0d0cbf" data-node-id="8440:25443" data-name="CertSprints">
+                <div className="udc4d53a u4efc18c ufc3627b u897a779 uf66bad4 u08e85b9 u54183fb u4b730cd uf25f67e uef6007d u942cc98 ua584871 u1963165 ua012d38 uc0d0cbf" data-node-id="8440:25443" data-name="CertSprints">
                   <p className="u9bf4565 ua342888 u0d97f34 uff9932c u99c483e u0ff40b7 u81841dd u3eb3769 u70dfd13 uec298cf" data-node-id="8440:25444">
                     CertSprints
                   </p>
                 </div>
-                <div className="udc4d53a u4efc18c ufc3627b u897a779 uf66bad4 u08e85b9 u54183fb u4b730cd uf25f67e uef6007d u942cc98 ua584871 u1963165 ua012d38 uc0d0cbf" data-node-id="8440:25445" data-name="Performance systems">
-                  <p className="u9bf4565 ua342888 u0d97f34 uff9932c u99c483e u0ff40b7 u81841dd u3eb3769 u70dfd13 uec298cf" data-node-id="8440:25446">
-                    Performance systems
-                  </p>
-                </div>
+
               </>
             )}
           </div>
@@ -259,34 +255,6 @@ function AdcConsultingSoftware({ className, step = "4", tab = "Consulting" }: Ad
                 </p>
                 <p className="u9bf4565 ua342888 ubf77387 uff9932c u99c483e u0ff40b7 u07b4d55 u0ddd995 uf01cca6" data-node-id="8436:25427">
                   Know you’re ready before you book the exam.
-                </p>
-              </div>
-              <div className="ufc3627b u897a779 uf66bad4 ua74128c u769dc70 uef6007d u99c483e u0ff40b7 ud0aa5bd" data-node-id="8436:25428" data-name="Strategy-to-Execution & Performance Systems">
-                <div className="ud8e166b ufc3627b u897a779 uf66bad4 u0d94519 u54183fb u4b730cd uef6007d u99c483e u9447911 u0ff40b7 ud0aa5bd" data-node-id="8451:25482" data-name="Strategy systems thumbnail">
-                  <div className="u4efc18c ua6374d9 u1689c4c u419aa8f u3a1f637 uef6007d u99c483e u52c1972 u0ff40b7 u5296901" data-node-id="8455:25524" data-name="Strategy confidence / Strong 92% / editable">
-                    <p className="ub9d61ad u9bf4565 udc4d53a udd7023e u1db892d u35bfaf3 u6ff6598 uff9932c u45eaceb ufa307bc u70dfd13 ud730f87 u91f4f85" data-node-id="8455:25525">
-                      AI Strategy Confidence Score
-                    </p>
-                    <div className="udc4d53a u50117c7 u141dbdc u8cc4d5e ub94ce1a" data-node-id="8455:25526" data-name="Gauge / editable progress">
-                      <Gauge value={92}/>
-                    </div>
-                    <p className="ub9d61ad u9bf4565 udc4d53a udd7023e u1db892d u0b4c682 u6ff6598 uff9932c u45eaceb ud66c298 u70dfd13 u001aa3c ua7c7f40" data-node-id="8455:25529">
-                      92%
-                    </p>
-                    <p className="ub9d61ad u9bf4565 udc4d53a udd7023e u1db892d udcc9a9a u6ff6598 uff9932c u4c0299f u6b17377 u70dfd13 u3c9d826 u09f691d" data-node-id="8455:25530">
-                      Strong strategy
-                    </p>
-                    <p className="ub9d61ad u9bf4565 udc4d53a ue1bcec0 uafaced7 u73bdf5e u6ff6598 uff9932c ue4e00dd uf0e761d u70dfd13 u1163d3a u0283d68" data-node-id="8455:25531">
-                      Clear priorities. Confident execution.
-                    </p>
-                  </div>
-                </div>
-                <p className="u9bf4565 u46abc35 u42841ae uff9932c u99c483e u0ff40b7 u81841dd u3eb3769 uf01cca6" data-node-id="8436:25429">
-                  03
-                </p>
-                <p className="u9bf4565 u268b44a u6c6b43c uff9932c u99c483e u0ff40b7 u07b4d55 uc285508 uf01cca6" data-node-id="8436:25430">{`Strategy-to-Execution & Performance Systems`}</p>
-                <p className="u9bf4565 ua342888 ubf77387 uff9932c u99c483e u0ff40b7 u07b4d55 u0ddd995 uf01cca6" data-node-id="8436:25431">
-                  Strategy, work and people performance in one line of sight.
                 </p>
               </div>
             </>

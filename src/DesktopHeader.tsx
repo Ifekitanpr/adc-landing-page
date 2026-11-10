@@ -1,8 +1,9 @@
+import AnnouncementBar from "./AnnouncementBar";
 const imgGroup = "/assets/figma/8404-26515-imgGroup.svg";
 const imgGroup1 = "/assets/figma/8404-26515-imgGroup1.svg";
 const imgVuesaxOutlineArrowDown = "/assets/figma/8404-26515-imgVuesaxOutlineArrowDown.svg";
 const imgLine10 = "/assets/figma/8404-26515-imgLine10.svg";
-export default function DesktopHeader(){return <header className="desktop-sticky-header" aria-label="Main navigation"><div className="desktop-nav-surface"><div className="u1f9e7ef ue317c8a u609a8f6 u91359c3 uf662077" data-name="Header">
+export default function DesktopHeader(){return <header className="desktop-sticky-header" aria-label="Main navigation"><div className="desktop-header-stack"><AnnouncementBar/><div className="desktop-nav-surface"><div className="u1f9e7ef ue317c8a u609a8f6 u91359c3 uf662077" data-name="Header">
               <div className="ua3c9421 udc4d53a ufc3627b u897a779 u9ee33b4 uea30b17 u54183fb uf833e80 u885a4c8 ue156ad3" data-node-id="8404:27065">
                 <a className="uf8d6fc9 ufc3627b ud44c62e u897a779 ud20553b u8fc3b2e u6c96220 u54183fb u4b730cd uf42acca uef6007d u3dcf3a8 uf1f2588 u99c483e ud84f400" data-node-id="8404:27066" data-name="Button">
                   <div className="u9bf4565 u897a779 uf66bad4 ua342888 u4b730cd ub0e090e uff9932c u99c483e u0ff40b7 uf23e4c8 u0ddd995 u6e155e4 u65ba8f0" data-node-id="I8404:27066;11:1560">
@@ -65,4 +66,4 @@ export default function DesktopHeader(){return <header className="desktop-sticky
                 </div>
               </div>
             </div>
-          </div></header>}
+          </div></div></header>}
